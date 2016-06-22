@@ -1,0 +1,15 @@
+/**
+ * Custom add on styles
+ */
+
+$head-font-family: "Ovo", "Georgia", serif;
+
+$text-font-family: "Muli", "Verdana", sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $head-font-family;
+}
+
+p {
+  font-family: $text-font-family;
+}
