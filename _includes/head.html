@@ -16,13 +16,13 @@
   {% endif %}
   {% else %}
   <!-- Only on localhost served from user local machine dev copies -->
-
 {% endif %}
 {% if site.url != site.github.url %}
   <!-- Both staging sites served online from user forks and from local dev copies -->
   <script type="text/javascript" src="{{ '/js/dev.bundle.js' | prepend: site.baseurl }}"></script>
   {% else %}
   <!-- Only on Github pages site published at CNAME domain from main repo -->
+  {% include google_tag_manager.html %}
 {% endif %}
 {% if site.url == site.github.url or jekyll.environment == 'development' %}
   <!-- Both on Github pages site published from main repo and from local dev copies -->
