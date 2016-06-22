@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+## Github Pages
+### Configuration Overrides
+safe: true
+lsi: false
+# source: your top-level directory  
+### Defaults
+highlighter: rouge
+
+## Regional Settings 
+timezone: America/Los_Angeles
+
+## Site structure
+url: "http://www.rootandflow.com" # the base hostname & protocol for your site
+  # Do not use in design assets; "site.url" is only used used in the xml feed and in the page head for the canonical header and the RSS link. 
+baseurl: "" # the subpath of your site, e.g. /blog
+  # Use baseurl in design assets to indicate site root. 
+  # If your baseurl varies from dev to production environment, set baseurl to match production and either: 
+  # 1. run locally with "jekyll serve".
+  # 2. configure local settings in a separate _config_dev.yml file 
+  # See: http://stackoverflow.com/questions/27386169/change-site-url-to-localhost-during-jekyll-local-development for reference.  
+permalink: /:categories/:year/:month/:title/
+# final trailing slash is optional here in config; will be appended to url address but not to {{ page.url }} liquid output 
+
+### Include Github Pages supported plugins. 
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+### Exclude working resources and manifests from Github Pages site build. 
+exclude:
+  - CNAME
+  - Gemfile
+  - LICENSE
+  - node_modules/
+  - npm-debug.log
+  - package.json
+  - README.md
+  - vendor/
+  - webpack.config.js
+
+### Templating
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: true
+  auto_ids: false
+
+## Site metadata
+title: RootAndFlow
+description: "Web Marketing and Design"
+### Contact information 
+email: connect@rootandflow.com
+twitter_username: rootandflow
+github_username: rootandflow
