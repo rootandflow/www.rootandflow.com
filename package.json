@@ -1,0 +1,43 @@
+{
+  "version": "0.1.0",
+  "name": "",
+  "description": "Web Marketing and Design - marketing website built with Framheim.",
+  "keywords": [
+    "web",
+    "build",
+    "ruby",
+    "github-pages",
+    "jekyll",
+    "deployment",
+    "zurb",
+    "foundation",
+    "performance",
+    "acceleration",
+    "markdown",
+    "marketing"
+  ],
+  "homepage": "https://www.rootandflow.com/",
+  "author": "Remy Schrader <remy@rootandflow.com> (http://www.rootandflow.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rootandflow/www.rootandflow.com.git"
+  },
+  "main": "package.json",
+  "dependencies": {
+    "foundation-sites": "^6.2.3",
+    "webfontloader": "^1.6.24"
+  },
+  "devDependencies": {
+    "eslint": "^2.12.0",
+    "eslint-loader": "^1.3.0",
+    "holderjs": "^2.9.3",
+    "shelljs": "^0.7.0",
+    "shx": "^0.1.2",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "start": "jekyll serve --config _config.local.yml"
+  },
+  "private": true,
+  "license": "CC-BY-NC-ND-4.0"
+}
