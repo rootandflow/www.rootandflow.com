@@ -1,0 +1,34 @@
+---
+layout: test
+title: HTML5 Video Full Background
+---
+<style>
+  {% include_relative video-full.css %}
+</style>
+
+<div class="container">
+  <div id="cmn-video-demo4__content">
+    <div class="cmn-video-demo4__content--header">
+      <h2 style="font-family: Oswald;">Root and Flow</h2>
+      <p style="font-family: Montserrat;">Marketing Consulting Firm</p>
+      <a style="font-family: Lora;" href="#">Get Started</a>
+    </div>
+  </div>
+  <div class="cmn-video-demo4__content--main">
+    <h2 style="font-family: Oswald;">Careers</h2>
+    <p style="font-family: Montserrat;">We're Hiring!</p>
+  </div>
+</div>
+
+<video id="cmn-video-demo4__video"
+  poster="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--poster--rnf.png"
+  autoplay
+  muted
+  loop
+>
+  <source src="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--1920x640--rnf.webm" type="video/webm" codecs="vp9">
+  <source src="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--1920x640--rnf.mp4" type="video/mp4" codecs="avc1.42E01E">
+  <img src="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--fallback--1920x640--rnf.png"
+title="Your browser does not support HTML5 video."
+>
+</video>

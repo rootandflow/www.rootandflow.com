@@ -1,0 +1,21 @@
+<svg  version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      width='800'
+      height='800'
+      >
+  <defs>
+    <path id="curve-path" d="M40,500 a1,1 0 0,0 480,0" />
+  </defs>
+  <circle cx="220" cy="30" r="20" style="stroke #000000; stroke-width: 3; fill: #6666ff;"></circle>
+  <text x='10' y='25' style='font-family: Arial;font-size: 20;font-weight: bold;'>Title in SVG test.</text>
+  <text x='20' y='80' style='font-family: Droid Sans Mono;font-size: 48;font-weight: ;'>Title with custom font.</text>
+  <text x="10" y="200" style="font-family: Oswald;font-size: 72;font-weight: bold;stroke: #333333; stroke-width: 2; fill: #66ff66;">
+    <tspan x="0" dy="84">Title with custom font, </tspan>
+    <tspan x="0" dy="84">fill color, stroke outline </tspan>
+    <tspan x="0" dy="84">and line breaks via "tspan"</tspan>
+  </text>
+  <text x='20' y='80' style='font-family: Droid Sans Mono;font-size: 36;font-weight: ;'>
+    <textPath xlink:href="#curve-path">Text along a curved path...</textPath>
+  </text>
+</svg>

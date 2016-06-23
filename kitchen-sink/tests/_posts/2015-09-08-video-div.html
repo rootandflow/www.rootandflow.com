@@ -1,0 +1,27 @@
+---
+layout: test
+title: HTML5 Video Div
+---
+<style>
+  {% include_relative video-div.css %}
+</style>
+
+<div id="cmn-video-demo3__container">
+  <video id="cmn-video-demo3__video"
+    poster="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--poster--rnf.png"
+    autoplay
+    muted
+    loop
+  >
+    <source src="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--1920x640--rnf.webm" type="video/webm" codecs="vp9">
+    <source src="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--1920x640--rnf.mp4" type="video/mp4" codecs="avc1.42E01E">
+    <img src="http://media.rootandflow.com/video/hawk/soaring-riding-wind-current--fallback--1920x640--rnf.png"
+    title="Your browser does not support HTML5 video."
+    >
+  </video>
+  <div id="cmn-video-demo3__content">
+    <h2 style="font-family: Oswald;">Root and Flow</h2>
+    <p style="font-family: Montserrat;">Marketing Consulting Firm</p>
+    <a style="font-family: Lora;" href="#">Get Started</a>
+  </div>
+</div>
