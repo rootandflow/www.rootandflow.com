@@ -2,8 +2,15 @@
  * Custom add on styles
  */
 
-$head-font-family: "Ovo", "Georgia", serif;
+/* FONTS */
+$cinzel-font-family: 'Cinzel Decorative', cursive;
+$cour-font-family: 'Courgette', cursive;
+$merri-font-family: 'Merriweather', serif;
+$mono-font-family: 'Roboto Mono', monospace;
+$slabo-font-family: 'Slabo 13px', serif;
 
+/* Old Fonts
+$head-font-family: "Ovo", "Georgia", serif;
 $text-font-family: "Muli", "Verdana", sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,4 +19,33 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: $text-font-family;
+}
+*/
+
+/* Font assignments */
+.cinzel, .footer-heading, .site-title {
+  font-family: $cinzel-font-family;
+}
+
+.cour, .post-title, .page-link, h1 {
+  font-family: $cour-font-family;
+}
+
+.merri, p, body {
+  font-family: $merri-font-family;
+}
+
+.mono, .copyright-notice {
+  font-family: $mono-font-family;
+}
+
+.slabo, h2, h3, h4, h5, h6, ul {
+  font-family: $slabo-font-family;
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-heavy {
+  font-weight: 700;
 }
