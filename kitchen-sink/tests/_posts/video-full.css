@@ -1,0 +1,77 @@
+/* ============================================================
+  DEMO 4 - FULL SCREEN BACKGROUND VIDEO
+============================================================ */
+#cmn-video-demo4__video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#cmn-video-demo4__content h2,
+#cmn-video-demo4__content p,
+#cmn-video-demo4__content a {
+  color: #fff;
+  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+#cmn-video-demo4__content h2 {
+  font-family: serif;
+  font-size: 30px;
+}
+#cmn-video-demo4__content p {
+  margin-bottom: 40px;
+}
+#cmn-video-demo4__content a {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "Roboto Slab", serif;
+  border: solid 1px #fff;
+  transition: background 0.3s, color 0.3s, text-shadow 0.3s;
+}
+#cmn-video-demo4__content a:hover {
+  background-color: #fff;
+  color: #787878;
+  text-shadow: none;
+}
+
+.cmn-video-demo4__content--main h2,
+.cmn-video-demo4__content--main p,
+.cmn-video-demo4__content--main a {
+  color: #fff;
+  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.cmn-video-demo4__content--main h2 {
+  font-family: serif;
+  font-size: 30px;
+}
+.cmn-video-demo4__content--main p {
+  margin-bottom: 40px;
+}
+.cmn-video-demo4__content--main a {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "Roboto Slab", serif;
+  border: solid 1px #fff;
+  transition: background 0.3s, color 0.3s, text-shadow 0.3s;
+}
+.cmn-video-demo4__content--main a:hover {
+  background-color: #fff;
+  color: #787878;
+  text-shadow: none;
+}
+
+@media screen and (max-device-width: 800px) {
+body { background: url(polina.jpg) #000 no-repeat center center fixed; }
+#bgvid { display: none; }
+}

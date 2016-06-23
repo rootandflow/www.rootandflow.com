@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+	<head>
+		{% include head.html %}
+	</head>
+	<body lang="en">
+		<div class="off-canvas-wrap" data-offcanvas>
+			<div class="inner-wrap">
+				{% include header.html %}
+
+				<h5>Color Variables</h5>
+				<div>
+					<h6>Primary Color</h6>
+					<div style="background-color: #008CBA; width:160px; height:90px;"></div>
+					<h6>Secondary Color</h6>
+					<div style="background-color: #E7E7E7; width:160px; height:90px;"></div>
+					<h6>Alert Color</h6>
+					<div style="background-color: #F04124; width:160px; height:90px;"></div>
+					<h6>Success Color</h6>
+					<div style="background-color: #43AC6A; width:160px; height:90px;"></div>
+					<h6>Warning Color</h6>
+					<div style="background-color: #F08A24; width:160px; height:90px;"></div>
+					<h6>Info Color</h6>
+					<div style="background-color: #A0D3E8; width:160px; height:90px;"></div>
+				</div>
+
+				<main>
+					<section class="copy">
+						{{ content }}
+					</section>
+
+					<section class="vars">
+						<h2>Liquid Variables</h2>
+						<dl>
+							<dt>Site pages:</dt>
+							{% for page in site.pages %}
+								{% if page.title %}
+								<dd><a class="" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">{{ page.title }}</a></dd>
+								{% endif %}
+							{% endfor %}
+							<dt>Page categories:</dt>
+							<dd>{{ page.categories | join ', ' }}</dd>
+							<dt>Size of categories array:</dt>
+							<dd>{{ page.categories | size }}</dd>
+							<dt>Page:</dt>
+							<dd>{{ page }}</dd>
+							<dt>Site:</dt>
+							<dd>{{ site }}</dd>
+						</dl>
+					</section>
+				</main>
+
+				{% include footer.html %}
+				<a class="exit-off-canvas"></a>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="{{ "/_bld/tail.lib.js" | prepend: site.baseurl }}"></script>
+		<script type="text/javascript" src="{{ "/_bld/site.js" | prepend: site.baseurl }}"></script>
+
+		{% include init-scripts.html %}
+
+	</body>
+</html>
