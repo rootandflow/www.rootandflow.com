@@ -1,10 +1,135 @@
 ---
 layout: page
 title: Test
+top_nav: dev
 ---
 
 ### Env Test
 {: .text-right}
+
+### Liquid Tests
+
+site.url {{ site.url }}
+
+site.github.url: {{ site.github.url }}
+
+page.url: {{ page.url }}
+
+#### site.pages "for" loops
+
+Original for loop using:
+
+1. FOR my_page in site.pages
+    1. IF my_page.title
+        1. Link
+    1. ENDIF
+1. ENDFOR
+
+{% for my_page in site.pages %}
+  {% if my_page.title %}
+  <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+  {% endif %}
+{% endfor %}
+
+First iteration using:
+
+1. FOR my_page in site.pages
+    1. IF my_page.top_nav
+        1. Link
+    1. ENDIF
+1. ENDFOR
+
+{% for my_page in site.pages %}
+  {% if my_page.top_nav %}
+  <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+  , {{ my_page.url }}
+  {% endif %}
+{% endfor %}
+
+Second iteration using:
+
+1. FOR my_page in site.pages
+    1. IF my_page.top_nav != "dev"
+        1. Link
+    1. ENDIF
+1. ENDFOR
+
+{% for my_page in site.pages %}
+  {% if my_page.top_nav != "dev" %}
+  <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+  , {{ my_page.url }}
+  {% endif %}
+{% endfor %}
+
+Third iteration using:
+
+1. FOR my_page in site.pages
+    1. IF page.top_nav
+        1. IF my_page.url != page.url
+            1. Link
+        1. ENDIF
+    1. ENDIF
+1. ENDFOR
+
+{% for my_page in site.pages %}
+  {% if my_page.top_nav %}
+    {% if my_page.url != page.url %}
+<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>, {{ my_page.url }}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+Fourth iteration using:
+
+1. FOR my_page in site.pages
+    1. IF my_page.top_nav
+        1. IF site.url == site.github.url
+            1. IF my_page.top_nav != dev
+                1. Link
+            1. ENDIF
+        1. ELSE site.url != site.github.url
+            1. Link
+        1. ENDIF
+    1. ENDIF
+1. ENDFOR
+
+{% for my_page in site.pages %}
+  {% if my_page.top_nav %}
+    {% if site.url == site.github.url %}
+      {% if my_page.top_nav != 'dev' %}
+<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>, {{ my_page.url }}
+      {% endif %}
+    {% else %}
+<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>, {{ my_page.url }}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+Fifth iteration using:
+
+1. FOR my_page in site.pages
+    1. IF my_page.top_nav AND my_page.url != page.url
+        1. IF site.url == site.github.url
+            1. IF my_page.top_nav != dev
+                1. Link
+            1. ENDIF
+        1. ELSE site.url != site.github.url
+            1. Link
+        1. ENDIF
+    1. ENDIF
+1. ENDFOR
+
+{% for my_page in site.pages %}
+  {% if my_page.top_nav and my_page.url != page.url %}
+    {% if site.url == site.github.url %}
+      {% if my_page.top_nav != 'dev' %}
+<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>, {{ my_page.url }}
+      {% endif %}
+    {% else %}
+<a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>, {{ my_page.url }}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 ### Foundation JS
 
