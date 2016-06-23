@@ -9,7 +9,7 @@ top_nav: yes
 
 All of our websites are guaranteed to be cross-browser compatible.  
 
-We continual refine our coding practices, so users have the same experience, whether on desktop, tablet or mobile.  
+We continually refine our coding practices, so users have the same experience, whether on desktop, tablet or mobile.  
 
 ### Content Updates that are completely Bullet-Proof
 
