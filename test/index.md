@@ -9,11 +9,19 @@ top_nav: dev
 
 ### Liquid Tests
 
-site.url {{ site.url }}
+#### Site variables
 
-site.github.url: {{ site.github.url }}
+site.time:  
+{{ site.time }}
 
-page.url: {{ page.url }}
+page.url:  
+{{ page.url }}
+
+site.url:  
+{{ site.url }}
+
+site.github.url:  
+{{ site.github.url }}
 
 #### site.pages "for" loops
 
