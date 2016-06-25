@@ -1,0 +1,15 @@
+
+<div class="flex-video">
+  {% if include.link %}
+  <iframe
+    width="560"
+    height="315"
+    src="{{ include.link }}"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+  {% else %}
+    {{ include.embed }}"
+  {% endif %}
+</div>
+
