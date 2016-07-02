@@ -7,6 +7,19 @@ top_nav: dev
 ### Env Test
 {: .text-right}
 
+## Markdown Tests
+
+Links  
+Typed out absolute reference: [Google](http://www.google.com)  
+
+<b>https://www.google.com</b>
+
+<p>https://www.google.com</p>
+http://www.google.com
+
+  <p>https://www.google.com</p>
+http://www.google.com
+
 ### Liquid Tests
 
 #### Site variables
