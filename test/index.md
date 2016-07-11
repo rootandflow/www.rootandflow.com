@@ -4,6 +4,38 @@ title: Test
 top_nav: dev
 ---
 
+<h3>JSON Test</h3>
+
+<script>
+
+// ID of the Google Spreadsheet
+var spreadsheetID = '16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8';
+var worksheet = 'od6';
+
+// Make sure it is public or set to Anyone with link can view
+var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/" + worksheet + "/public/values?alt=json";
+
+$.getJSON(url, function(data) {
+
+  var entry = data.feed.entry;
+
+  //first row "title" column
+  console.log(entry[0]['gsx$term']['$t']);
+  console.log(entry[0]['gsx$loc']['$t']);
+  console.log(entry[1]['gsx$term']['$t']);
+  console.log(entry[1]['gsx$loc']['$t']);
+
+  $(entry).each(function(){
+    // Column names are name, age, etc.
+    $('.fetched').prepend('<p><strong>'+this.gsx$term.$t+'</strong></p><p>'+this.gsx$loc.$t+'</p>');
+  });
+
+});
+
+</script>
+
+<div class="fetched"></div>
+
 ### Env Test
 {: .text-right}
 
@@ -21,6 +53,10 @@ http://www.google.com
 http://www.google.com
 
 ### Liquid Tests
+
+```ruby
+{% raw %}{{ content | replace: '<li>[ ]', '<li class = "box">' | replace: '<li>[x]', '<li class = "box_done">'  }}{% endraw %}
+```
 
 #### Site variables
 
