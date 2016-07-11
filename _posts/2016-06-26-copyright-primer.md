@@ -52,4 +52,35 @@ in your copyright agreement. However you should be up front and make sure the cl
 
 Also ask yourself why you feel this is necessary for you, and how this serves the best interests of your clients. There are other avenues you can pursue that will lead to repeat business for yourself and a better end result for your clients.  
 
+<script>
+
+// ID of the Google Spreadsheet
+var spreadsheetID = '16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8';
+var worksheet = 'od6';
+
+// Make sure it is public or set to Anyone with link can view
+var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/" + worksheet + "/public/values?alt=json";
+
+$.getJSON(url, function(data) {
+
+  var entry = data.feed.entry;
+
+  //first row "title" column
+  console.log(entry[0]['gsx$term']['$t']);
+  console.log(entry[0]['gsx$loc']['$t']);
+  console.log(entry[1]['gsx$term']['$t']);
+  console.log(entry[1]['gsx$loc']['$t']);
+
+  $(entry).each(function(){
+    // Column names are name, age, etc.
+    $('.fetched').prepend('<p><strong>'+this.gsx$term.$t+'</strong></p><p>'+this.gsx$loc.$t+'</p>');
+  });
+
+});
+
+</script>
+
+<div class="fetched"></div>
+
+
 [legal-guide]: http://www.dmlp.org/legal-guide/understanding-difference-between-transfer-and-license
