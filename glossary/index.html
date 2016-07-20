@@ -1,0 +1,234 @@
+---
+layout: page
+title: Glossary
+subtitle: Web Marketing Terms
+permalink: /learn/glossary/
+top_nav: yes
+---
+{% assign rows = site.data.glossary.feed.entry %}
+
+{% for row in rows reversed %}
+  {% unless row["gsx$pub"]["$t"] == "" %}
+
+    {% assign rowUpdated = row["updated"]["$t"] %}
+    {% for item in row %}
+      {% case item[0] %}
+        {% when 'gsx$term' %}
+          {% assign rowTerms = item[1]['$t'] | prepend: 'Term-|-' %}
+          {% assign rowTerm = rowTerms | split: '-|-' %}
+          {% assign rowTermOrig = rowTerm[1] %}
+          {% assign rowTermUp = rowTerm[1] | upcase %}
+        {% when 'gsx$alt' %}
+          {% assign rowAlts = item[1]['$t'] | prepend: 'Alt-|-' %}
+          {% assign rowAlt = rowAlts | split: '-|-' %}
+        {% when 'gsx$abbr' %}
+          {% assign rowAbbrs = item[1]['$t'] | prepend: 'Abbr-|-' %}
+          {% assign rowAbbr = rowAbbrs | split: '-|-' %}
+        {% when 'gsx$contrast' %}
+          {% assign rowContrasts = item[1]['$t'] | prepend: 'Contrast-|-' %}
+          {% assign rowContrast = rowContrasts | split: '-|-' %}
+        {% when 'gsx$learn' %}
+          {% assign rowLearns = item[1]['$t'] | prepend: 'Learn-|-' %}
+          {% assign rowLearn = rowLearns | split: '-|-' %}
+        {% when 'gsx$media' %}
+          {% assign rowMedias = item[1]['$t'] | prepend: 'Media-|-' %}
+          {% assign rowMedia = rowMedias | split: '-|-' %}
+        {% when 'gsx$usage' %}
+          {% assign rowUsages = item[1]['$t'] | prepend: 'Usage-|-' %}
+          {% assign rowUsage = rowUsages | split: '-|-' %}
+        {% when 'gsx$source' %}
+          {% assign rowSources = item[1]['$t'] | prepend: 'Source-|-' %}
+          {% assign rowSource = rowSources | split: '-|-' %}
+        {% when 'gsx$site' %}
+          {% assign rowSites = item[1]['$t'] | prepend: 'Site-|-' %}
+          {% assign rowSite = rowSites | split: '-|-' %}
+        {% when 'gsx$url' %}
+          {% assign rowUrls = item[1]['$t'] | prepend: 'Url-|-' %}
+          {% assign rowUrl = rowUrls | split: '-|-' %}
+        {% when 'gsx$def' %}
+          {% assign rowDefs = item[1]['$t'] | prepend: 'Def-|-' %}
+          {% assign rowDef = rowDefs | split: '-|-' %}
+        {% when 'gsx$syn' %}
+          {% assign rowSyns = item[1]['$t'] | prepend: 'Synonyms-|-' %}
+          {% assign rowSyn = rowSyns | split: '-|-' %}
+        {% when 'gsx$ex' %}
+          {% assign rowExs = item[1]['$t'] | prepend: 'Examples-|-' %}
+          {% assign rowEx = rowExs | split: '-|-' %}
+      {% endcase %}
+    {% endfor %}
+
+    {% assign rowPub = row["gsx$pub"]["$t"] | minus: 1 %}
+
+    {% if rowPub > 0 %}
+      {% capture listItem %}
+              <li>{{ rowDef[1] | escape }}<br />
+                {% if rowSyn[1] %}
+                <em>{{ rowSyn[0] }}: </em>{{ rowSyn[1] | escape }}<br />
+                {% endif %}
+                {% if rowEx[1] %}
+                <em>{{ rowEx[0] }}: </em>{{ rowEx[1] | escape }}<br />
+                {% endif %}
+              </li>
+      {% endcapture %}
+      {% if listItems == nil %}
+        {% assign listItems = listItem %}
+      {% else %}
+        {% assign listItems = listItem | append: '-|-' | append: listItems %}
+      {% endif %}
+    {% else %}
+      {% capture descItem %}
+        <dd>
+          <blockquote>
+        {% unless listItems == nil %}
+          {% assign listItems = listItems | split: '-|-' %}
+            <ol>
+              <li>{{ rowDef[1] | escape }}<br />
+          {% if rowSyn[1] %}
+                <em>{{ rowSyn[0] }}: </em>{{ rowSyn[1] | escape }}<br />
+          {% endif %}
+          {% if rowEx[1] %}
+                <em>{{ rowEx[0] }}: </em>{{ rowEx[1] | escape }}<br />
+          {% endif %}
+              </li>
+          {% for li in listItems %}
+              {{ li }}
+          {% endfor %}
+            </ol>
+            <p>
+          {% assign listItems == nil %}
+        {% else %}
+            <p>{{ rowDef[1] | escape }}<br />
+          {% if rowSyn[1] %}
+              <em>{{ rowSyn[0] }}: </em>{{ rowSyn[1] | escape }}<br />
+          {% endif %}
+          {% if rowEx[1] %}
+              <em>{{ rowEx[0] }}: </em>{{ rowEx[1] | escape }}<br />
+          {% endif %}
+        {% endunless %}
+               <cite>
+                 <a target="_blank" href="{{ rowUrl[1] | uri_escape }}">{{ rowSite[1] | escape }} &diams; {{ rowSource[1] | escape }} &raquo;</a>
+               </cite>
+            </p>
+          </blockquote>
+        </dd>
+      {% endcapture %}
+
+      {% unless descItems == nil %}
+        {% assign descItems = descItem | append: '-|-' | append: descItems %}
+      {% else %}
+        {% assign descItems = descItem %}
+      {% endunless %}
+
+      {% unless rowUsage[1] == nil %}
+        {% assign descItems = descItems | split: '-|-' %}
+
+        {% capture descPair %}
+        <dt><a href="{{ baseurl }}/{{ rowUsage[1] | slugify }}">{{ rowUsage[1] | capitalize }}</a></dt>
+          {% for dd in descItems %}
+        {{ dd }}
+          {% endfor %}
+        {% endcapture %}
+
+        {% assign descItems == nil %}
+
+        {% unless descPairs == nil %}
+          {% assign descPairs = descPair | append: '-|-' | append: descPairs %}
+        {% else %}
+          {% assign descPairs = descPair %}
+        {% endunless %}
+      {% endunless %}
+
+      {% unless rowTerm[1] == nil %}
+        {% assign descPairs = descPairs | split: '-|-' %}
+        {% capture indexItem %}
+        <dl id="list-{{ rowTerm[1] | slugify }}" data-timestamp="{{ rowUpdated }}">
+    <dt id="term-{{ rowTerm[1] | slugify }}"><dfn>{{ rowTerm[1] }}</dfn></dt>
+        {% assign numCheck = rowAlt[1].size | plus: rowAbbr[1].size | plus: rowContrast[1].size | plus: rowLearn[1].size %}
+        {% unless numCheck == 0 %}
+    <dd>
+      <dl>
+        {% unless rowAlt[1] == nil %}
+        <dt>{{ rowAlt[0] }}</dt>
+        <dd>{{ rowAlt[1] }}</dd>
+        {% endunless %}
+        {% unless rowAbbr[1] == nil %}
+        <dt>{{ rowAbbr[0] }}</dt>
+        <dd>{{ rowAbbr[1] }}</dd>
+        {% endunless %}
+        {% unless rowContrast[1] == nil %}
+        <dt>{{ rowContrast[0] }}</dt>
+        <dd>{{ rowContrast[1] }}</dd>
+        {% endunless %}
+        {% unless rowLearn[1] == nil %}
+        <dt>{{ rowLearn[0] }}</dt>
+        <dd>{{ rowLearn[1] }}</dd>
+        {% endunless %}
+      </dl>
+        {% endunless %}
+        {% unless rowMedia[1] == nil %}
+    <dd>
+      <figure>{{ rowMedia[1] }}</figure>
+    </dd>
+        {% endunless %}
+    <dd>
+      <dl>
+          {% for pair in descPairs %}
+        {{ pair }}
+          {% endfor %}
+        {% assign descPairs == nil %}
+      </dl>
+    </dd>
+  </dl>
+        {% endcapture %}
+
+        {% assign indexItem = indexItem | prepend: '|-|' | prepend: rowTermUp %}
+
+        {% unless indexItems == nil %}
+          {% assign indexItems = indexItem | append: '-|-' | append: indexItems %}
+        {% else %}
+          {% assign indexItems = indexItem %}
+        {% endunless %}
+
+        {% assign indexLetter = rowTermUp | slice: 0 %}
+
+        {% unless indexLetters == nil %}
+          {% assign indexLetters = indexLetter | append: ',' | append: indexLetters %}
+        {% else %}
+          {% assign indexLetters = indexLetter %}
+        {% endunless %}
+
+      {% endunless %}
+
+    {% endif %}
+
+  {% endunless %}
+{% endfor %}
+
+{% assign indexLinks = indexLetters | split: ',' | uniq | sort %}
+<div class="menu-centered">
+  <ul class="menu">
+{% for link in indexLinks %}
+    <li><a href="#index-{{ link | slugify }}">{{ link }}</a></li>
+{% endfor %}
+  </ul>
+</div>
+
+{% assign indexItems = indexItems | split: '-|-' | sort %}
+
+{% for entries in indexItems %}
+  {% assign entry = entries | split: '|-|' %}
+  {% assign alpha = entry[0] | slice: 0 %}
+
+  {% unless alpha == beta %}
+  <h2 id="index-{{ alpha | slugify }}">{{ alpha }}</h2>
+    {% assign beta = alpha %}
+  {% endunless %}
+
+  {{ entry[1] }}
+
+{% endfor %}
+
+<h3>JSON Test</h3>
+
+<div class="fetched"></div>
+
