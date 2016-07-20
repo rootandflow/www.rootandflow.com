@@ -60,3 +60,11 @@ description: "Web Marketing and Design"
 email: connect@rootandflow.com
 twitter_username: rootandflow
 github_username: rootandflow
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      functions:
+      - foundation
+
