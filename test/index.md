@@ -233,7 +233,6 @@ Fifth iteration using:
 + site.baseurl is NIL: {% if site.baseurl == NIL %}True{% else %}False{% endif %}
 + site.title value is: {{ site.title }}
 + site.title value - downcase - is: {{ site.title | downcase }}
-+ site.title - downcase - is equal to Repo name: {% if site.title | downcase == site.github.repository_name %}True{% else %}False{% endif %}
 
 #### Data variables
 
