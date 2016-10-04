@@ -2,7 +2,7 @@
 layout: page
 title: Glossary
 subtitle: Web Marketing Terms
-permalink: /learn/glossary/
+permalink: /glossary/
 top_nav: yes
 ---
 {% assign rows = site.data.glossary.feed.entry %}
@@ -142,7 +142,7 @@ top_nav: yes
         {% assign descPairs = descPairs | split: '-|-' %}
         {% capture indexItem %}
         <dl id="list-{{ rowTerm[1] | slugify }}" data-timestamp="{{ rowUpdated }}">
-    <dt id="term-{{ rowTerm[1] | slugify }}"><dfn>{{ rowTerm[1] }}</dfn></dt>
+          <dt id="term-{{ rowTerm[1] | slugify }}"><dfn><a href="{{ rowTerm[1] | slugify }}">{{ rowTerm[1] }}</a></dfn></dt>
         {% assign numCheck = rowAlt[1].size | plus: rowAbbr[1].size | plus: rowContrast[1].size | plus: rowLearn[1].size %}
         {% unless numCheck == 0 %}
     <dd>
