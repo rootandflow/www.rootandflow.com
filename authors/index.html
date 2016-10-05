@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Authors
-permalink: /authors/
 top_nav: yes
 ---
 
@@ -22,6 +21,6 @@ top_nav: yes
       <figcaption>{{ author.caption | markdownify | strip_html | strip_newlines }}</figcaption>
     </figure>
   </dd>
-  <dd>{{ author.content }}</dd>
+  <dd>{{ author.excerpt }}</dd>
 {% endfor %}
 </dl>
