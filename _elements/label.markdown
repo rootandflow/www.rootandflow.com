@@ -1,0 +1,12 @@
+---
+title: Label
+code:
+  javascript:
+  html: |
+    <span class="secondary label">Secondary Label</span>
+    <span class="success label">Success Label</span>
+    <span class="alert label">Alert Label</span>
+    <span class="warning label">Warning Label</span>
+  markdown:
+---
+{% include code.markdown %}
