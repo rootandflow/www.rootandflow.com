@@ -1,5 +1,6 @@
 ---
 title: Toggler
+description: Toggler makes it easy to toggle CSS or animate any element with a click.
 code:
   javascript:
   html: |

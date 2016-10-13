@@ -1,5 +1,6 @@
 ---
 title: Media Object
+description: Media objects are super useful components for displaying an item, usually an image, alongside some content, usually text. You could put lists, grids, or even other media objects inside.
 code:
   javascript:
   html: |

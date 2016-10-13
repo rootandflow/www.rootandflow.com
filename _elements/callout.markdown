@@ -1,5 +1,6 @@
 ---
 title: Callout
+description: Callouts combine panels and alerts from Foundation 5 into one generic container component.
 code:
   javascript:
   html: |

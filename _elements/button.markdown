@@ -1,5 +1,6 @@
 ---
 title: Button
+description: Buttons are convenient tools when you need more traditional actions. To that end, Foundation has many easy to use button styles that you can customize or override to fit your needs.
 code:
   javascript:
   html: |

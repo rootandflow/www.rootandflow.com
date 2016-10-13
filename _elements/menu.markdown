@@ -1,5 +1,6 @@
 ---
 title: Menu
+description: Our flexible menu component makes it easy to build many common navigation patterns, all with the same markup.
 code:
   javascript:
   html: |

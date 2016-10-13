@@ -1,5 +1,6 @@
 ---
 title: Drilldown Menu
+description: Drilldown is one of Foundation's three menu patterns, which converts a series of nested lists into a vertical drilldown menu.
 code:
   javascript:
   html: |

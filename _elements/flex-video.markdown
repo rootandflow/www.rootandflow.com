@@ -1,5 +1,6 @@
 ---
 title: Flex Video
+description: Wrap embedded videos from YouTube, Vimeo, and others in a flex video container to ensure they maintain the correct aspect ratio regardless of screen size.
 code:
   javascript:
   html: |

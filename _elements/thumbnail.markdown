@@ -1,5 +1,6 @@
 ---
 title: Thumbnail
+description: If you're going to use an image as an anchor, we've got you covered. All you gotta do is add one class to your image and voilà!
 code:
   javascript:
   html: |

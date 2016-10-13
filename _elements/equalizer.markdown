@@ -1,5 +1,6 @@
 ---
 title: Equalizer
+description: Equalizer makes it dead simple to give multiple items equal height.
 code:
   javascript:
   html: |

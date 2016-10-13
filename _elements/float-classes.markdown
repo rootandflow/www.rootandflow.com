@@ -1,5 +1,6 @@
 ---
 title: Float Classes
+description: Foundation includes a handful of helpful float classes to add common positioning behaviors to elements.
 code:
   javascript:
   html: |

@@ -1,5 +1,6 @@
 ---
 title: Close Button
+description: The humble close button can be used anywhere you need something to go away on click.
 code:
   javascript:
   html: |

@@ -1,5 +1,6 @@
 ---
 title: Pagination
+description: Pagination is a type of navigation that lets users click through pages of search results, products, or other related items.
 code:
   javascript:
   html: |

@@ -1,5 +1,6 @@
 ---
 title: Accordion Menu
+description: Change a basic vertical Menu into a expandable accordion menu with the Accordion Menu plugin.
 code:
   javascript:
   html: |

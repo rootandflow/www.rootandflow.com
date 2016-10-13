@@ -1,5 +1,6 @@
 ---
 title: Sticky
+description: Stick nearly anything, anywhere you like!
 code:
   javascript:
   html: |

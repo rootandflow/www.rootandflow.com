@@ -1,5 +1,6 @@
 ---
 title: Dropdown Menu
+description: Change a basic Menu into an expandable dropdown menu with the Dropdown Menu plugin.
 code:
   javascript:
   html: |

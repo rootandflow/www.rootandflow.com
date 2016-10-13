@@ -1,5 +1,6 @@
 ---
 title: Orbit
+description: An image and content carousel with animation support and many customizable options.
 code:
   javascript:
   html: |

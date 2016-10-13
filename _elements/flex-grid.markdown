@@ -1,5 +1,6 @@
 ---
 title: Flex Grid
+description: New in Foundation 6 is a Flexbox-powered grid, which you can use instead of the traditional float grid.
 code:
   javascript:
   html: |

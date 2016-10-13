@@ -1,5 +1,6 @@
 ---
 title: Slider
+description: This handy lil slider is perfect for setting specific values within a range.
 code:
   javascript:
   html: |

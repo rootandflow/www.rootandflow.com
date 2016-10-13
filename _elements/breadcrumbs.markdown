@@ -1,5 +1,6 @@
 ---
 title: Breadcrumbs
+description: Breadcrumbs come in handy to show a navigation trail for users clicking through your site.
 code:
   javascript:
   html: |

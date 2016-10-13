@@ -1,5 +1,6 @@
 ---
 title: Badge
+description: The badge is a basic component that displays a number. It's useful for calling out a number of unread items.
 code:
   javascript:
   html: |
