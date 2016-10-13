@@ -1,38 +1,51 @@
-# Welcome to Jekyll!
-
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 ## Github Pages
-### Configuration Overrides
-safe: true
+### Mandatory Configuration defaults
+### https://help.github.com/articles/configuring-jekyll/
 lsi: false
-# source: your top-level directory  
-### Defaults
+safe: true
+incremental: false
 highlighter: rouge
+gist:
+  noscript: false
+# source: repo top level directory
 
-## Regional Settings 
+### Templating
+markdown: kramdown # Github Pages mandatory config
+kramdown:
+  auto_id_stripping: true
+  input: GFM # Github Pages non-mandatory default
+  hard_wrap: false # Github Pages non-mandatory default
+  math_engine: mathjax # Github Pages mandatory config
+
+## Regional Settings
 timezone: America/Los_Angeles
 
 ## Site structure
+### URL addresses
 url: "http://www.rootandflow.com" # the base hostname & protocol for your site
-  # Do not use in design assets; "site.url" is only used used in the xml feed and in the page head for the canonical header and the RSS link. 
+  # Do not use in design assets; "site.url" is only used used in the xml feed and in the page head for the canonical header and the RSS link
 baseurl: "" # the subpath of your site, e.g. /blog
-  # Use baseurl in design assets to indicate site root. 
-  # If your baseurl varies from dev to production environment, set baseurl to match production and either: 
-  # 1. run locally with "jekyll serve".
-  # 2. configure local settings in a separate _config_dev.yml file 
-  # See: http://stackoverflow.com/questions/27386169/change-site-url-to-localhost-during-jekyll-local-development for reference.  
-permalink: /:categories/:year/:month/:title/
-# final trailing slash is optional here in config; will be appended to url address but not to {{ page.url }} liquid output 
+  # Use baseurl in design assets to indicate site root
+  # If your baseurl varies from dev to production environment, set baseurl to match production and either:
+  # 1. run locally with "jekyll serve"
+  # 2. configure local settings in a separate _config_dev.yml file
+  # See: http://stackoverflow.com/questions/27386169/change-site-url-to-localhost-during-jekyll-local-development for reference
+permalink: pretty
+# final trailing slash is optional here in config; will be appended to url address but not to {{ page.url }} liquid output
 
-### Include Github Pages supported plugins. 
+cdn: 'http://media.rootandflow.com'
+
+## Build settings
+
+### Include Github Pages supported plugins
 gems:
+  - jekyll-coffeescript # Github Pages non-mandatory default
+  - jekyll-paginate # Github Pages non-mandatory default
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata # Needed for local dev instance only;
+  # available in site.github
 
 ### Exclude working resources and manifests from Github Pages site build. 
 exclude:
@@ -46,13 +59,6 @@ exclude:
   - vendor/
   - webpack.config.js
 
-### Templating
-markdown: kramdown
-kramdown:
-  input: GFM
-  parse_block_html: true
-  auto_ids: false
-
 ## Site metadata
 title: RootAndFlow
 description: "Web Marketing and Design"
@@ -61,10 +67,52 @@ email: connect@rootandflow.com
 twitter_username: rootandflow
 github_username: rootandflow
 
+### Collections
+collections:
+  authors:
+    output: true
+  elements:
+    output: true
+    permalink: /style-guide/:path/
+  glossary:
+    output: true
+
 defaults:
-  - scope:
+  -
+    scope:
       path: "" # an empty string here means all files in the project
     values:
       functions:
       - foundation
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  -
+    scope:
+      path: ""
+      type: "elements"
+    values:
+      excerpt: ""
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "glossary"
+    values:
+      layout: "glossary"
 
