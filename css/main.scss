@@ -56,6 +56,10 @@ $on-laptop:        800px;
  * Custom add on styles
  */
 
+html {
+  background-color: $background-color;
+}
+
 /* FONTS */
 $cinzel-font-family: 'Cinzel Decorative', cursive;
 $cour-font-family: 'Courgette', cursive;
