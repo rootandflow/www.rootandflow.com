@@ -49,6 +49,88 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting",
-        "custom"
+        "syntax-highlighting"
 ;
+
+/**
+ * Custom add on styles
+ */
+
+/* FONTS */
+$cinzel-font-family: 'Cinzel Decorative', cursive;
+$cour-font-family: 'Courgette', cursive;
+$merri-font-family: 'Merriweather', serif;
+$mono-font-family: 'Roboto Mono', monospace;
+$slabo-font-family: 'Slabo 13px', serif;
+
+/* Old Fonts
+$head-font-family: "Ovo", "Georgia", serif;
+$text-font-family: "Muli", "Verdana", sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $head-font-family;
+}
+
+p {
+  font-family: $text-font-family;
+}
+*/
+
+/* Font assignments */
+.cinzel, .footer-heading, .site-title {
+  font-family: $cinzel-font-family;
+}
+
+.cour, .post-title, .page-link, h1 {
+  font-family: $cour-font-family;
+}
+
+.merri, p, body {
+  font-family: $merri-font-family;
+}
+
+.mono, .copyright-notice, code {
+  font-family: $mono-font-family;
+}
+
+.slabo, h2, h3, h4, h5, h6, ul {
+  font-family: $slabo-font-family;
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-heavy {
+  font-weight: 700;
+}
+
+/* Parallax */
+#hero {
+  position: relative;
+  height: 750px;
+  overflow: hidden;
+}
+
+#hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  top: 0;
+  bottom: 0;
+  background: url('{{ site.cdn }}/design/photos/sunlit-river--full.jpg') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 15em;
+  padding: 1em;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+  background: rgba(0,0,0,0.25);
+  color: white;
+}
+
