@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Home
 top_nav: yes
+scroll: sunlit-river
 ---
 
 ## Success with Scalable Strategies  
