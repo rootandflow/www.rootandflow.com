@@ -64,11 +64,20 @@
       window.Foundation.version;
     } catch (e) {
     document.write
-    ("<script type='text/javascript' src='{{ '/js/foundation.6.02.03.min.js'
+    ("<script type='text/javascript' src='{{ '/js/foundation.6.2.3.min.js'
                   | prepend: site.baseurl }}'>\x3C/script>");
     }
     </script>
-
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/what-input/2.1.0/what-input.min.js"></script>
+    <script>
+    try {
+      whatInput.ask.name;
+    } catch (e) {
+    document.write
+    ("<script type='text/javascript' src='{{ '/js/what-input.2.1.0.min.js'
+                  | prepend: site.baseurl }}'>\x3C/script>");
+    }
+    </script>
   <script type="text/javascript" src="{{ '/js/vendor.bundle.js' | prepend: site.baseurl }}"></script>
   <script type="text/javascript" src="{{ '/js/site.bundle.js' | prepend: site.baseurl }}"></script>
 
