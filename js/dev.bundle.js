@@ -53,8 +53,6 @@
 
 	var holderjs = __webpack_require__(2);
 
-	console.log('dev script loaded');
-
 
 /***/ },
 /* 2 */
