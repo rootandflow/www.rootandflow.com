@@ -37,6 +37,10 @@ permalink: pretty
 cdn: 'http://media.rootandflow.com'
 
 ## Build settings
+### SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
 
 ### Include Github Pages supported plugins
 gems:
@@ -44,7 +48,7 @@ gems:
   - jekyll-paginate # Github Pages non-mandatory default
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-github-metadata # Needed for local dev instance only;
+  # jekyll-github-metadata # Needed for local dev instance only;
   # available in site.github
 
 ### Exclude working resources and manifests from Github Pages site build. 
@@ -60,7 +64,7 @@ exclude:
   - webpack.config.js
 
 ## Site metadata
-title: RootAndFlow
+title: "RootAndFlow.com"
 description: "Web Marketing and Design"
 ### Contact information 
 email: connect@rootandflow.com
