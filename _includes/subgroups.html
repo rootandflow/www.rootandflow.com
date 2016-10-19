@@ -1,0 +1,20 @@
+{% assign trim = page.url | size | minus: 1 %}
+{% assign path = page.url | slice: 0, trim | prepend: site.baseurl %}
+
+{% for subgroup in page.subgroups %}
+<h3 id="{{ subgroup[0] }}"><a href="{{ path }}#{{ subgroup[0] }}">{{ subgroup[0] | capitalize}}</a></h3>
+  <dl>
+    {% for entry in subgroup[1] %}
+    <dt{% if entry[1].class %} class="{{ entry[1].class }}"{% endif %}>{{ entry[0] }}</dt>
+      <dd>
+        <dl{% if entry[1].class %} class="{{ entry[1].class }}"{% endif %}>
+          {% for item in entry[1] %}
+          <dt>{{ item[0] }}</dt>
+          <dd>{{ item[1] }}</dd>
+          {% endfor %}
+        </dl>
+      </dd>
+    {% endfor %}
+  </dl>
+{% endfor %}
+
