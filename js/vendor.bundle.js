@@ -54,7 +54,8 @@
 /* 4 */
 /***/ function(module, exports) {
 
-	console.log('vendor script loaded');
+	
+
 
 
 /***/ }

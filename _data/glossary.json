@@ -1,0 +1,5319 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+    "id": {
+      "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values"
+    },
+    "updated": {
+      "$t": "2016-07-19T19:04:17.424Z"
+    },
+    "category": [
+      {
+        "scheme": "http://schemas.google.com/spreadsheets/2006",
+        "term": "http://schemas.google.com/spreadsheets/2006#list"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "glossary"
+    },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "application/atom+xml",
+        "href": "https://docs.google.com/a/remystjames.com/spreadsheets/d/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/pubhtml"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values?alt=json"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "remy"
+        },
+        "email": {
+          "$t": "remy@remystjames.com"
+        }
+      }
+    ],
+    "openSearch$totalResults": {
+      "$t": "74"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cokwr"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Banner Ads"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Advertising Media, source: Creative, site: Thinknear, url: http://www.thinknear.com/products/creative/, pub: 1, def: Banners are static or animated images that can redirect to landing pages, mobile sites, app stores, or videos. Standard banners can also be enhanced to include dynamic messaging, including drive time to a location, weather conditions, or time."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cokwr"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Banner Ads"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Advertising Media"
+        },
+        "gsx$source": {
+          "$t": "Creative"
+        },
+        "gsx$site": {
+          "$t": "Thinknear"
+        },
+        "gsx$url": {
+          "$t": "http://www.thinknear.com/products/creative/"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "Banners are static or animated images that can redirect to landing pages, mobile sites, app stores, or videos. Standard banners can also be enhanced to include dynamic messaging, including drive time to a location, weather conditions, or time."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cpzh4"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Uniform Resource Locator"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Internet Protocol, source: SEO best practices for URLs, site: Moz, url: https://moz.com/learn/seo/url, pub: 1, def: A human-readable text that was designed to replace the numbers (IP addresses) that computers use to communicate with servers. They also identify the file structure on the given website. URLs are a subset of the Uniform Resource Identifier (URI) that specifies where an identified resource is available and the mechanism for retrieving it."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cpzh4"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Uniform Resource Locator"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Internet Protocol"
+        },
+        "gsx$source": {
+          "$t": "SEO best practices for URLs"
+        },
+        "gsx$site": {
+          "$t": "Moz"
+        },
+        "gsx$url": {
+          "$t": "https://moz.com/learn/seo/url"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A human-readable text that was designed to replace the numbers (IP addresses) that computers use to communicate with servers. They also identify the file structure on the given website. URLs are a subset of the Uniform Resource Identifier (URI) that specifies where an identified resource is available and the mechanism for retrieving it."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cre1l"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Web Property"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Business Asset, source: Web property, site: Wikipedia, url: https://en.wikipedia.org/wiki/Web_property, pub: 1, def: A point of presence (e.g. a website, social media account, blog, etc.) on the web that is an asset of an entity (e.g. an individual or corporation) used for the purpose of representing a brand, person or other identity. The property can be considered a communication channel for the entity whose identity is associated with it. Points of presence on the web which contain content about an entity may not be property that can be owned by that entity (e.g. restaurant review pages on sites such as Yelp). Web property is considered intangible property and is analogous to real property in that it has ownership which can be recorded and transferred."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cre1l"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Web Property"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Business Asset"
+        },
+        "gsx$source": {
+          "$t": "Web property"
+        },
+        "gsx$site": {
+          "$t": "Wikipedia"
+        },
+        "gsx$url": {
+          "$t": "https://en.wikipedia.org/wiki/Web_property"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A point of presence (e.g. a website, social media account, blog, etc.) on the web that is an asset of an entity (e.g. an individual or corporation) used for the purpose of representing a brand, person or other identity. The property can be considered a communication channel for the entity whose identity is associated with it. Points of presence on the web which contain content about an entity may not be property that can be owned by that entity (e.g. restaurant review pages on sites such as Yelp). Web property is considered intangible property and is analogous to real property in that it has ownership which can be recorded and transferred."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/chk2m"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 5"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Analytics Taxonomy, source: About properties - Analytics help, site: Google Support, url: https://support.google.com/analytics/answer/2649554?hl=en&ref_topic=1009620, pub: 1, def: While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/chk2m"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Analytics Taxonomy"
+        },
+        "gsx$source": {
+          "$t": "About properties - Analytics help"
+        },
+        "gsx$site": {
+          "$t": "Google Support"
+        },
+        "gsx$url": {
+          "$t": "https://support.google.com/analytics/answer/2649554?hl=en&ref_topic=1009620"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ciyn3"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "White Hat"
+        },
+        "content": {
+          "type": "text",
+          "$t": "contrast: Black Hat, usage: Security, source: White hat (computer security), site: Wikipedia, url: https://en.wikipedia.org/wiki/White_hat_(computer_security), pub: 1, def: The term \"white hat\" in Internet slang refers to an ethical computer hacker, or a computer security expert, who specializes in penetration testing and in other testing methodologies to ensure the security of an organization''s information systems. Ethical hacking is a term coined by IBM meant to imply a broader category than just penetration testing. Contrasted with black hat, a malicious hacker, the name comes from Western films, where heroic and antagonistic cowboys might traditionally wear a white and a black hat respectively.\nWhite-hat hackers may also work in teams called \"sneakers\", red teams, or tiger teams."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ciyn3"
+          }
+        ],
+        "gsx$term": {
+          "$t": "White Hat"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": "Black Hat"
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Security"
+        },
+        "gsx$source": {
+          "$t": "White hat (computer security)"
+        },
+        "gsx$site": {
+          "$t": "Wikipedia"
+        },
+        "gsx$url": {
+          "$t": "https://en.wikipedia.org/wiki/White_hat_(computer_security)"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The term \"white hat\" in Internet slang refers to an ethical computer hacker, or a computer security expert, who specializes in penetration testing and in other testing methodologies to ensure the security of an organization''s information systems. Ethical hacking is a term coined by IBM meant to imply a broader category than just penetration testing. Contrasted with black hat, a malicious hacker, the name comes from Western films, where heroic and antagonistic cowboys might traditionally wear a white and a black hat respectively.\nWhite-hat hackers may also work in teams called \"sneakers\", red teams, or tiger teams."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ckd7g"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 7"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO, source: White Hat SEO Tutorial - How to Improve Search Performance While Maintaining Your Integrity, site: WordStream, url: http://www.wordstream.com/white-hat-seo, pub: 1, def: A practice used to improve search performance that is in line with terms and conditions of a search engine."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ckd7g"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO"
+        },
+        "gsx$source": {
+          "$t": "White Hat SEO Tutorial - How to Improve Search Performance While Maintaining Your Integrity"
+        },
+        "gsx$site": {
+          "$t": "WordStream"
+        },
+        "gsx$url": {
+          "$t": "http://www.wordstream.com/white-hat-seo"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A practice used to improve search performance that is in line with terms and conditions of a search engine."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/clrrx"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Jumpline"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Journalism, source: Definition of Jump Line, site: Merriam-Webster, url: http://www.merriam-webster.com/dictionary/jump%20line, pub: 1, def: A directional line of print (as “continued on page 7, column 2”) at the end of the first part of a divided story or article in a newspaper or periodical or a line (as “continued from page 1”) at the continuation."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/clrrx"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Jumpline"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Journalism"
+        },
+        "gsx$source": {
+          "$t": "Definition of Jump Line"
+        },
+        "gsx$site": {
+          "$t": "Merriam-Webster"
+        },
+        "gsx$url": {
+          "$t": "http://www.merriam-webster.com/dictionary/jump%20line"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A directional line of print (as “continued on page 7, column 2”) at the end of the first part of a divided story or article in a newspaper or periodical or a line (as “continued from page 1”) at the continuation."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cyevm"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Retargeting"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cyevm"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Retargeting"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cztg3"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Geo-Targeting"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cztg3"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Geo-Targeting"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d180g"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Gamification"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d180g"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Gamification"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d2mkx"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Location-based advertising"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d2mkx"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Location-based advertising"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cssly"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Mobile Advertising"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cssly"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Mobile Advertising"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cu76f"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Yes Ladders"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Sales Tactic"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cu76f"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Yes Ladders"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Sales Tactic"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cvlqs"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Hyperlocal Advertising"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Advertising Channel, source: How Hyperlocal Mobile Advertising Changes Everything, site: MarketingLand, url: http://marketingland.com/hyperlocal-mobile-advertising-changes-everything-92979, def: Hyperlocal, as it’s called in ad tech circles, allows marketers to use a smartphone’s GPS data to geographically target audiences for the purpose of delivering relevant ads."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cvlqs"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Hyperlocal Advertising"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Advertising Channel"
+        },
+        "gsx$source": {
+          "$t": "How Hyperlocal Mobile Advertising Changes Everything"
+        },
+        "gsx$site": {
+          "$t": "MarketingLand"
+        },
+        "gsx$url": {
+          "$t": "http://marketingland.com/hyperlocal-mobile-advertising-changes-everything-92979"
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": "Hyperlocal, as it’s called in ad tech circles, allows marketers to use a smartphone’s GPS data to geographically target audiences for the purpose of delivering relevant ads."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cx0b9"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Perceived Value"
+        },
+        "content": {
+          "type": "text",
+          "$t": "media: https://www.youtube.com/watch?v=mVKuCbjFfIY, usage: Marketing"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/cx0b9"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Perceived Value"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": "https://www.youtube.com/watch?v=mVKuCbjFfIY"
+        },
+        "gsx$usage": {
+          "$t": "Marketing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d9ney"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Malware"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Security, source: Automated Malware Analysis, site: Cuckoo Sandbox, url: https://cuckoosandbox.org/, def: Malware is the swiss-army knife of cybercriminals and any other adversary to your corporation or organization."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d9ney"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Malware"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Security"
+        },
+        "gsx$source": {
+          "$t": "Automated Malware Analysis"
+        },
+        "gsx$site": {
+          "$t": "Cuckoo Sandbox"
+        },
+        "gsx$url": {
+          "$t": "https://cuckoosandbox.org/"
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": "Malware is the swiss-army knife of cybercriminals and any other adversary to your corporation or organization."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/db1zf"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Human Centered Design"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/db1zf"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Human Centered Design"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dcgjs"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Discoverability"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dcgjs"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Discoverability"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ddv49"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Feedback"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ddv49"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Feedback"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d415a"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Norman Door"
+        },
+        "content": {
+          "type": "text",
+          "$t": "contrast: Ideal Door, usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d415a"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Norman Door"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": "Ideal Door"
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d5fpr"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "nofollow"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: HTML Attribute"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d5fpr"
+          }
+        ],
+        "gsx$term": {
+          "$t": "nofollow"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "HTML Attribute"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d6ua4"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Adaptive Content"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Publishing, source: Will Your Content Adapt, Or Will It Become Extinct?, site: Todaymade, url: http://todaymade.com/blog/adaptive-content/, pub: 1, def: Publish Once, Distribute Everywhere"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d6ua4"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Adaptive Content"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Publishing"
+        },
+        "gsx$source": {
+          "$t": "Will Your Content Adapt, Or Will It Become Extinct?"
+        },
+        "gsx$site": {
+          "$t": "Todaymade"
+        },
+        "gsx$url": {
+          "$t": "http://todaymade.com/blog/adaptive-content/"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "Publish Once, Distribute Everywhere"
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d88ul"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 24"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Publishing, pub: 2, def: Content is stored in a centralized location, in usable chunks, that allows you to easily share it with a variety of devices."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/d88ul"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Publishing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": "2"
+        },
+        "gsx$def": {
+          "$t": "Content is stored in a centralized location, in usable chunks, that allows you to easily share it with a variety of devices."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dkvya"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Alt tag"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dkvya"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Alt tag"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dmair"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 26"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: HTML Attribute"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dmair"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "HTML Attribute"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dnp34"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Article"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: HTML5 Tag, source: <article> - HTML, site: MDN, url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article, pub: 1, def: The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each <article> should be identified, typically by including a heading (<h1>-<h6> element) as a child of the <article> element."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dnp34"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Article"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "HTML5 Tag"
+        },
+        "gsx$source": {
+          "$t": "<article> - HTML"
+        },
+        "gsx$site": {
+          "$t": "MDN"
+        },
+        "gsx$url": {
+          "$t": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each <article> should be identified, typically by including a heading (<h1>-<h6> element) as a child of the <article> element."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dp3nl"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 28"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Content Marketing, source: The Article Element, site: HTML5 Doctor, url: http://html5doctor.com/the-article-element/, pub: 1, def: An independent piece of content, one suitable for putting in an article element, is content that makes sense on it’s own. This yardstick is up to your interpretation, but an easy smell test is would this make sense in an RSS feed? Of course weblog articles and static pages would make sense in a feed reader, and some sites have weblog comment feeds."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dp3nl"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Content Marketing"
+        },
+        "gsx$source": {
+          "$t": "The Article Element"
+        },
+        "gsx$site": {
+          "$t": "HTML5 Doctor"
+        },
+        "gsx$url": {
+          "$t": "http://html5doctor.com/the-article-element/"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "An independent piece of content, one suitable for putting in an article element, is content that makes sense on it’s own. This yardstick is up to your interpretation, but an easy smell test is would this make sense in an RSS feed? Of course weblog articles and static pages would make sense in a feed reader, and some sites have weblog comment feeds."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/df9om"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 29"
+        },
+        "content": {
+          "type": "text",
+          "$t": "source: Article Definition, site: Google Search, url: https://www.google.com/#safe=off&q=article+definition, pub: 1, def: A particular item or object, typically one of a specified type., syn: item, thing, object, artifact, commodity, product, ex: small household articles"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/df9om"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": "Article Definition"
+        },
+        "gsx$site": {
+          "$t": "Google Search"
+        },
+        "gsx$url": {
+          "$t": "https://www.google.com/#safe=off&q=article+definition"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A particular item or object, typically one of a specified type."
+        },
+        "gsx$syn": {
+          "$t": "item, thing, object, artifact, commodity, product"
+        },
+        "gsx$ex": {
+          "$t": "small household articles"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dgo93"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 30"
+        },
+        "content": {
+          "type": "text",
+          "$t": "pub: 2, def: A piece of writing included with others in a newspaper, magazine, or other publication., syn: report, account, story, write-up, feature, item, piece, column, review, commentary, ex: an article in the paper"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dgo93"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": "2"
+        },
+        "gsx$def": {
+          "$t": "A piece of writing included with others in a newspaper, magazine, or other publication."
+        },
+        "gsx$syn": {
+          "$t": "report, account, story, write-up, feature, item, piece, column, review, commentary"
+        },
+        "gsx$ex": {
+          "$t": "an article in the paper"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/di2tg"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Asset Pillar"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Content Marketing, source: How to Make Winning Infographics Without Risk, site: Copyblogger, url: http://www.copyblogger.com/asset-pillar-infographic/"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/di2tg"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Asset Pillar"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Content Marketing"
+        },
+        "gsx$source": {
+          "$t": "How to Make Winning Infographics Without Risk"
+        },
+        "gsx$site": {
+          "$t": "Copyblogger"
+        },
+        "gsx$url": {
+          "$t": "http://www.copyblogger.com/asset-pillar-infographic/"
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/djhdx"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Autoresponder"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Email Newsletter Marketing, source: Meet the Lazy Marketer’s Best Friend, site: Copyblogger, url: http://www.copyblogger.com/email-autoresponders/"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/djhdx"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Autoresponder"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Email Newsletter Marketing"
+        },
+        "gsx$source": {
+          "$t": "Meet the Lazy Marketer’s Best Friend"
+        },
+        "gsx$site": {
+          "$t": "Copyblogger"
+        },
+        "gsx$url": {
+          "$t": "http://www.copyblogger.com/email-autoresponders/"
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dw4je"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Banner Blindness"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dw4je"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Banner Blindness"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dxj3v"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Bottom-of-Funnel"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: BOFU, usage: Marketing"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dxj3v"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Bottom-of-Funnel"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "BOFU"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dyxo8"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Credibility Indicator"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Marketing Term"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dyxo8"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Credibility Indicator"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing Term"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e0c8p"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Digital Asset Management"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e0c8p"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Digital Asset Management"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dqi9q"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Channels"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Marketing Term"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dqi9q"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Channels"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing Term"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/drwu7"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Content"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Marketing Term"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/drwu7"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Content"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing Term"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dtbek"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 39"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Publishing"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dtbek"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Publishing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dupz1"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Evergreen Topics"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Content Marketing"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/dupz1"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Evergreen Topics"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Content Marketing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e7d2q"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Funnel"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Marketing Term"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e7d2q"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Funnel"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing Term"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e8rn7"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "HTTPS"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Web Protocol"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e8rn7"
+          }
+        ],
+        "gsx$term": {
+          "$t": "HTTPS"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Web Protocol"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ea67k"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Inbound Marketing"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Marketing Term"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ea67k"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Inbound Marketing"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing Term"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ebks1"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Information Architecture"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: IA, usage: SEO/M, syn: Content Planning"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ebks1"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Information Architecture"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "IA"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": "Content Planning"
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e1qt2"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 45"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e1qt2"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e35dj"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Key Performance Indicators"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: KPIs, usage: Data Analytics"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e35dj"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Key Performance Indicators"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "KPIs"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Data Analytics"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e4jxw"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Functionality"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Web Development"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e4jxw"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Functionality"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Web Development"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e5yid"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Landing Page"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/e5yid"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Landing Page"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eilm2"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Markdown"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Content Authoring "
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eilm2"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Markdown"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Content Authoring "
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ek06j"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Meta Tags"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ek06j"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Meta Tags"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eleqw"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Metrics"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Data Analytics"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eleqw"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Metrics"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Data Analytics"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/emtbd"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Middle-of-Funnel"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: MOFU, usage: Marketing"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/emtbd"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Middle-of-Funnel"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "MOFU"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eczce"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Push Notifications"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Internet Protocol, source: What is push notification? SearchMobileComputing, site: TechTarget, url: http://searchmobilecomputing.techtarget.com/definition/push-notification, pub: 1, def: The delivery of information from a software application to a computing device without a specific request from the client.\nUnlike pull notifications, in which the client must request information from a server, push notifications originate from a server.  Typically, the end user must opt-in to receive alerts; opt-in usually takes place during the install process and end users are provided with a way to manage alerts if they change their minds later on.\nAn important advantage of push notifications in mobile computing is that the technology doesn't require specific applications on a mobile device to be open in order for a message to be received. This allows a smartphone to receive and display social media  or text message alerts even when the device's screen is locked and the social media application that is pushing the notification is closed."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eczce"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Push Notifications"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Internet Protocol"
+        },
+        "gsx$source": {
+          "$t": "What is push notification? SearchMobileComputing"
+        },
+        "gsx$site": {
+          "$t": "TechTarget"
+        },
+        "gsx$url": {
+          "$t": "http://searchmobilecomputing.techtarget.com/definition/push-notification"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The delivery of information from a software application to a computing device without a specific request from the client.\nUnlike pull notifications, in which the client must request information from a server, push notifications originate from a server.  Typically, the end user must opt-in to receive alerts; opt-in usually takes place during the install process and end users are provided with a way to manage alerts if they change their minds later on.\nAn important advantage of push notifications in mobile computing is that the technology doesn't require specific applications on a mobile device to be open in order for a message to be received. This allows a smartphone to receive and display social media  or text message alerts even when the device's screen is locked and the social media application that is pushing the notification is closed."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eedwv"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Ranking Factors"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eedwv"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Ranking Factors"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/efsh8"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Return On Investment"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: ROI, usage: Finances"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/efsh8"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Return On Investment"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "ROI"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Finances"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eh71p"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Rich Snippets"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eh71p"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Rich Snippets"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/etu5e"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Robots.txt"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO/M, source: What is Robots.txt?, site: Moz, url: https://moz.com/learn/seo/robotstxt, pub: 1, def: The robots exclusion protocol (REP), or robots.txt is a text file webmasters create to instruct robots (typically search engine robots) how to crawl and index pages on their website."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/etu5e"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Robots.txt"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": "What is Robots.txt?"
+        },
+        "gsx$site": {
+          "$t": "Moz"
+        },
+        "gsx$url": {
+          "$t": "https://moz.com/learn/seo/robotstxt"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The robots exclusion protocol (REP), or robots.txt is a text file webmasters create to instruct robots (typically search engine robots) how to crawl and index pages on their website."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ev8pv"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Schema"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Microdata, source: How to Use Schema Markup for SEO: A Beginner’s Guide, site: WordStream, url: http://www.wordstream.com/blog/ws/2014/03/20/schema-seo, pub: 1, def: A type of microdata that makes it easier for search engines to parse and interpret the information on your web pages more effectively so they can serve relevant results to users based on search queries."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ev8pv"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Schema"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Microdata"
+        },
+        "gsx$source": {
+          "$t": "How to Use Schema Markup for SEO: A Beginner’s Guide"
+        },
+        "gsx$site": {
+          "$t": "WordStream"
+        },
+        "gsx$url": {
+          "$t": "http://www.wordstream.com/blog/ws/2014/03/20/schema-seo"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A type of microdata that makes it easier for search engines to parse and interpret the information on your web pages more effectively so they can serve relevant results to users based on search queries."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ewna8"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 59"
+        },
+        "content": {
+          "type": "text",
+          "$t": "source: How to Boost Your SEO by Using Schema Markup, site: Kissmetrics, url: https://blog.kissmetrics.com/get-started-using-schema/, pub: 1, def: Code (semantic vocabulary) that you put on your website to help the search engines return more informative results for users. If you’ve ever used rich snippets, you’ll understand exactly what schema markup is all about."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ewna8"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": "How to Boost Your SEO by Using Schema Markup"
+        },
+        "gsx$site": {
+          "$t": "Kissmetrics"
+        },
+        "gsx$url": {
+          "$t": "https://blog.kissmetrics.com/get-started-using-schema/"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "Code (semantic vocabulary) that you put on your website to help the search engines return more informative results for users. If you’ve ever used rich snippets, you’ll understand exactly what schema markup is all about."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ey1up"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Search Engine Optimization"
+        },
+        "content": {
+          "type": "text",
+          "$t": "alt: Search Engine Marketing, abbr: SEO, SEM, SEO/M, usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ey1up"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Search Engine Optimization"
+        },
+        "gsx$alt": {
+          "$t": "Search Engine Marketing"
+        },
+        "gsx$abbr": {
+          "$t": "SEO, SEM, SEO/M"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eo7vq"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Search Engine Results Pages"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: SERPs, usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/eo7vq"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Search Engine Results Pages"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "SERPs"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/epmg7"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Sitemap"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/epmg7"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Sitemap"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/er10k"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Squeeze Page"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design, source: How to Create Squeeze Pages: What Makes an Awesome Squeeze Page Design?, site: WordStream, url: http://www.wordstream.com/blog/ws/2013/09/16/squeeze-page, pub: 1, def: A landing page designed to capture opt-in email addresses from potential subscribers. The goal of a squeeze page is to convince, cajole, or otherwise \"squeeze\" a visitor into providing one of their most sought-after and coveted pieces of personal data: the email address."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/er10k"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Squeeze Page"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": "How to Create Squeeze Pages: What Makes an Awesome Squeeze Page Design?"
+        },
+        "gsx$site": {
+          "$t": "WordStream"
+        },
+        "gsx$url": {
+          "$t": "http://www.wordstream.com/blog/ws/2013/09/16/squeeze-page"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A landing page designed to capture opt-in email addresses from potential subscribers. The goal of a squeeze page is to convince, cajole, or otherwise \"squeeze\" a visitor into providing one of their most sought-after and coveted pieces of personal data: the email address."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/esfl1"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Stakeholders"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Project Management"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/esfl1"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Stakeholders"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Project Management"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a59y2"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Top-of-Funnel"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: TOFU, usage: Marketing"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a59y2"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Top-of-Funnel"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "TOFU"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Marketing"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a6oij"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Unique Selling Proposition"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: USP, usage: Sales Term, source: Small Business Encyclopedia, site: Entrepreneur Magazine, url: https://www.entrepreneur.com/encyclopedia/unique-selling-proposition-usp, pub: 1, def: The factor or consideration presented by a seller as the reason that one product or service is different from and better than that of the competition. \nThe key to effective selling ... is what advertising and marketing professionals call a \"unique selling proposition\" (USP). Unless you can pinpoint what makes your business unique in a world of homogeneous competitors, you cannot target your sales efforts successfully."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a6oij"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Unique Selling Proposition"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "USP"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Sales Term"
+        },
+        "gsx$source": {
+          "$t": "Small Business Encyclopedia"
+        },
+        "gsx$site": {
+          "$t": "Entrepreneur Magazine"
+        },
+        "gsx$url": {
+          "$t": "https://www.entrepreneur.com/encyclopedia/unique-selling-proposition-usp"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The factor or consideration presented by a seller as the reason that one product or service is different from and better than that of the competition. \nThe key to effective selling ... is what advertising and marketing professionals call a \"unique selling proposition\" (USP). Unless you can pinpoint what makes your business unique in a world of homogeneous competitors, you cannot target your sales efforts successfully."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a832w"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 67"
+        },
+        "content": {
+          "type": "text",
+          "$t": "source: Unique selling proposition, site: Wikipedia, url: https://en.wikipedia.org/wiki/Unique_selling_proposition, pub: 1, def: The unique selling proposition (USP) or unique selling point is a marketing concept first proposed as a theory to explain a pattern in successful advertising campaigns of the early 1940s. The USP states that such campaigns made unique propositions to customers that convinced them to switch brands."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a832w"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": "Unique selling proposition"
+        },
+        "gsx$site": {
+          "$t": "Wikipedia"
+        },
+        "gsx$url": {
+          "$t": "https://en.wikipedia.org/wiki/Unique_selling_proposition"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The unique selling proposition (USP) or unique selling point is a marketing concept first proposed as a theory to explain a pattern in successful advertising campaigns of the early 1940s. The USP states that such campaigns made unique propositions to customers that convinced them to switch brands."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a9hnd"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Uniform Resource Locator"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: URL, usage: Internet Protocol, source: SEO best practices for URLs, site: Moz, url: https://moz.com/learn/seo/url, pub: 1, def: A human-readable text that was designed to replace the numbers (IP addresses) that computers use to communicate with servers. They also identify the file structure on the given website.\nURLs are a subset of the Uniform Resource Identifier (URI) that specifies where an identified resource is available and the mechanism for retrieving it., ex: http://www.example.com/category-keyword/subcategory-keyword/primary-keyword.html"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a9hnd"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Uniform Resource Locator"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "URL"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Internet Protocol"
+        },
+        "gsx$source": {
+          "$t": "SEO best practices for URLs"
+        },
+        "gsx$site": {
+          "$t": "Moz"
+        },
+        "gsx$url": {
+          "$t": "https://moz.com/learn/seo/url"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A human-readable text that was designed to replace the numbers (IP addresses) that computers use to communicate with servers. They also identify the file structure on the given website.\nURLs are a subset of the Uniform Resource Identifier (URI) that specifies where an identified resource is available and the mechanism for retrieving it."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": "http://www.example.com/category-keyword/subcategory-keyword/primary-keyword.html"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/9znoe"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Web Analytics"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Business Process, source: Web analytics, site: Wikipedia, url: https://en.wikipedia.org/wiki/Web_analytics, pub: 1, def: The measurement, collection, analysis and reporting of web data for purposes of understanding and optimizing web usage. However, Web analytics is not just a process for measuring web traffic but can be used as a tool for business and market research, and to assess and improve the effectiveness of a website. Web analytics applications can also help companies measure the results of traditional print or broadcast advertising campaigns. It helps one to estimate how traffic to a website changes after the launch of a new advertising campaign. Web analytics provides information about the number of visitors to a website and the number of page views. It helps gauge traffic and popularity trends which is useful for market research."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/9znoe"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Web Analytics"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Business Process"
+        },
+        "gsx$source": {
+          "$t": "Web analytics"
+        },
+        "gsx$site": {
+          "$t": "Wikipedia"
+        },
+        "gsx$url": {
+          "$t": "https://en.wikipedia.org/wiki/Web_analytics"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "The measurement, collection, analysis and reporting of web data for purposes of understanding and optimizing web usage. However, Web analytics is not just a process for measuring web traffic but can be used as a tool for business and market research, and to assess and improve the effectiveness of a website. Web analytics applications can also help companies measure the results of traditional print or broadcast advertising campaigns. It helps one to estimate how traffic to a website changes after the launch of a new advertising campaign. Web analytics provides information about the number of visitors to a website and the number of page views. It helps gauge traffic and popularity trends which is useful for market research."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a128v"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Web Property"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Business Asset, source: Web property, site: Wikipedia, url: https://en.wikipedia.org/wiki/Web_property, pub: 1, def: A point of presence (e.g. a website, social media account, blog, etc.) on the web that is an asset of an entity (e.g. an individual or corporation) used for the purpose of representing a brand, person or other identity. The property can be considered a communication channel for the entity whose identity is associated with it. Points of presence on the web which contain content about an entity may not be property that can be owned by that entity (e.g. restaurant review pages on sites such as Yelp).\nWeb property is considered intangible property and is analogous to real property in that it has ownership which can be recorded and transferred."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a128v"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Web Property"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Business Asset"
+        },
+        "gsx$source": {
+          "$t": "Web property"
+        },
+        "gsx$site": {
+          "$t": "Wikipedia"
+        },
+        "gsx$url": {
+          "$t": "https://en.wikipedia.org/wiki/Web_property"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A point of presence (e.g. a website, social media account, blog, etc.) on the web that is an asset of an entity (e.g. an individual or corporation) used for the purpose of representing a brand, person or other identity. The property can be considered a communication channel for the entity whose identity is associated with it. Points of presence on the web which contain content about an entity may not be property that can be owned by that entity (e.g. restaurant review pages on sites such as Yelp).\nWeb property is considered intangible property and is analogous to real property in that it has ownership which can be recorded and transferred."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a2gt8"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 71"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: Analytics Taxonomy, source: About properties - Analytics help, site: Google Support, url: https://support.google.com/analytics/answer/2649554?hl=en&ref_topic=1009620, pub: 1, def: While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a2gt8"
+          }
+        ],
+        "gsx$term": {
+          "$t": ""
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "Analytics Taxonomy"
+        },
+        "gsx$source": {
+          "$t": "About properties - Analytics help"
+        },
+        "gsx$site": {
+          "$t": "Google Support"
+        },
+        "gsx$url": {
+          "$t": "https://support.google.com/analytics/answer/2649554?hl=en&ref_topic=1009620"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a3vdp"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Wireframes"
+        },
+        "content": {
+          "type": "text",
+          "$t": "usage: UX Design"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/a3vdp"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Wireframes"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "UX Design"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/agihe"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Pay Per Click"
+        },
+        "content": {
+          "type": "text",
+          "$t": "abbr: PPC, usage: SEO/M"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/agihe"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Pay Per Click"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": "PPC"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": "SEO/M"
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ahx1v"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "YAML Ain't Markup Language"
+        },
+        "content": {
+          "type": "text",
+          "$t": "alt: YML, abbr: YAML, source: YAML, site: Wikipedia, url: https://en.wikipedia.org/wiki/YAML, pub: 1, def: A human-readable data serialization language. YAML syntax was designed to be easily mapped to data types common to most high-level languages: list, associative array, and scalar. Its familiar indented outline and lean appearance make it especially suited for tasks where humans are likely to view or edit data structures, such as configuration files, dumping during debugging, and document headers."
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ahx1v"
+          }
+        ],
+        "gsx$term": {
+          "$t": "YAML Ain't Markup Language"
+        },
+        "gsx$alt": {
+          "$t": "YML"
+        },
+        "gsx$abbr": {
+          "$t": "YAML"
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": "YAML"
+        },
+        "gsx$site": {
+          "$t": "Wikipedia"
+        },
+        "gsx$url": {
+          "$t": "https://en.wikipedia.org/wiki/YAML"
+        },
+        "gsx$pub": {
+          "$t": "1"
+        },
+        "gsx$def": {
+          "$t": "A human-readable data serialization language. YAML syntax was designed to be easily mapped to data types common to most high-level languages: list, associative array, and scalar. Its familiar indented outline and lean appearance make it especially suited for tasks where humans are likely to view or edit data structures, such as configuration files, dumping during debugging, and document headers."
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ajbm8"
+        },
+        "updated": {
+          "$t": "2016-07-19T19:04:17.424Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Location-based advertising"
+        },
+        "content": {
+          "type": "text",
+          "$t": ""
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/16FuP13iOQWUAeZEQX4RTPTrnUhDG58gvY2kCo-RRye8/2/public/values/ajbm8"
+          }
+        ],
+        "gsx$term": {
+          "$t": "Location-based advertising"
+        },
+        "gsx$alt": {
+          "$t": ""
+        },
+        "gsx$abbr": {
+          "$t": ""
+        },
+        "gsx$contrast": {
+          "$t": ""
+        },
+        "gsx$learn": {
+          "$t": ""
+        },
+        "gsx$media": {
+          "$t": ""
+        },
+        "gsx$usage": {
+          "$t": ""
+        },
+        "gsx$source": {
+          "$t": ""
+        },
+        "gsx$site": {
+          "$t": ""
+        },
+        "gsx$url": {
+          "$t": ""
+        },
+        "gsx$pub": {
+          "$t": ""
+        },
+        "gsx$def": {
+          "$t": ""
+        },
+        "gsx$syn": {
+          "$t": ""
+        },
+        "gsx$ex": {
+          "$t": ""
+        }
+      }
+    ]
+  }
+}

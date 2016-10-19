@@ -58,28 +58,32 @@
       }
     });
     </script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
     <script>
     try {
       window.Foundation.version;
     } catch (e) {
     document.write
-    ("<script type='text/javascript' src='{{ '/js/fallbacks/foundation.min.js'
+    ("<script type='text/javascript' src='{{ '/js/foundation.6.2.3.min.js'
                   | prepend: site.baseurl }}'>\x3C/script>");
     }
     </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/what-input/2.1.0/what-input.min.js"></script>
     <script>
-    $(document).ready(function($) {
-        $(document).foundation();
-    });
+    try {
+      whatInput.ask.name;
+    } catch (e) {
+    document.write
+    ("<script type='text/javascript' src='{{ '/js/what-input.2.1.0.min.js'
+                  | prepend: site.baseurl }}'>\x3C/script>");
+    }
     </script>
-
   <script type="text/javascript" src="{{ '/js/vendor.bundle.js' | prepend: site.baseurl }}"></script>
   <script type="text/javascript" src="{{ '/js/site.bundle.js' | prepend: site.baseurl }}"></script>
 
   <link rel="stylesheet"
-       href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css"
-    onerror="this.href='{{ "/css/foundation.min.css" | prepend: site.baseurl }}'"
+       href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css"
+    onerror="this.href='{{ "/css/foundation.6.02.03.min.css" | prepend: site.baseurl }}'"
   />
 
   <link rel="stylesheet" href='{{ "/css/main.css" | prepend: site.baseurl }}'>

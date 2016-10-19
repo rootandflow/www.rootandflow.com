@@ -53,7 +53,8 @@
 /* 3 */
 /***/ function(module, exports) {
 
-	console.log('site script loaded');
+	
+
 
 
 /***/ }

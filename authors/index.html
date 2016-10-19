@@ -1,0 +1,26 @@
+---
+layout: page
+title: Authors
+top_nav: yes
+---
+
+<dl>
+{% for author in site.authors %}
+{% assign name = author.title | markdownify | strip_html | strip_newlines %}
+{% assign headshot = author.title | slugify | prepend: "/images/authors/" | prepend: site.cdn %}
+  <dt><a href="{{ page.permalink }}{{ author.title | slugify }}">{{ name }}</a></dt>
+  <dd>
+    <figure class="headshot">
+      <img
+        alt="{{ name }}"
+        width="300px"
+        height="300px"
+        data-interchange="[{{ headshot }}-2x.jpg, retina]"
+        src="{{ headshot }}.jpg"
+      />
+      <figcaption>{{ author.caption | markdownify | strip_html | strip_newlines }}</figcaption>
+    </figure>
+  </dd>
+  <dd>{{ author.excerpt }}</dd>
+{% endfor %}
+</dl>
