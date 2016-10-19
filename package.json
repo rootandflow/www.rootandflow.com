@@ -37,6 +37,7 @@
   },
   "scripts": {
     "start": "jekyll serve --config _config.local.yml",
+    "gems": "shjs _scripts/bin/gems",
     "update": "npm update --save-dev"
   },
   "private": true,
