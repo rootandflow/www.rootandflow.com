@@ -8,10 +8,20 @@
     {% include header.html %}
 
     {% if page.scroll %}
-    <div id="parallax" class="row">
+    {% assign parallax = page.scroll | append: '--'
+                                     | prepend: '/design/photos/'
+                                     | prepend: site.cdn %}
+
+    <div id="parallax">
       <div id="parallax-img"
-        style="background-image: url('{{ site.cdn }}/design/photos/{{ page.scroll }}--full.jpg');"
-      ></div>
+           data-interchange="
+             [{{ parallax | append: '0640.jpg' }}, small],
+             [{{ parallax | append: '1024.jpg' }}, medium],
+             [{{ parallax | append: '1536.jpg' }}, large],
+             [{{ parallax | append: '0640@2x.jpg' }}, retina],
+             [{{ parallax | append: '1024@2x.jpg' }}, medium_retina],
+             [{{ parallax | append: '1536@2x.jpg' }}, large_retina]">
+      </div>
 
         <main class="content" role="main">
           {{ content }}
@@ -26,7 +36,7 @@
 
     {% include footer.html %}
 
-    <script src="js/parallax.js"></script>
+    <script src='{{ "/js/parallax.js" | prepend: site.baseurl }}'></script>
     <script>
     $(document).ready(function($) {
       {% for func in page.functions %}
