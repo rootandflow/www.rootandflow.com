@@ -41,7 +41,8 @@ $on-laptop:        800px;
     }
 }
 
-
+@import 'foundation';
+@include foundation-everything;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
