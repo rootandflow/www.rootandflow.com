@@ -37,7 +37,9 @@
   },
   "scripts": {
     "start": "jekyll serve --config _config.local.yml",
-    "update": "npm update --save-dev"
+    "gems": "shjs _scripts/bin/gems",
+    "update": "npm update --save-dev",
+    "vendor": "shx cp -R node_modules/foundation-sites/scss/* _sass && shx mv _sass/foundation.scss _sass/_foundation.scss"
   },
   "private": true,
   "license": "CC-BY-NC-ND-4.0"

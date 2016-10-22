@@ -10,7 +10,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     2rem;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -25,6 +25,16 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
 
 
 
@@ -41,14 +51,97 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+
+@import 'foundation';
+@import 'settings/settings';
+@include foundation-everything;
+
+// Migrated legacy code from Minima _base
+
+body {
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    min-height: 100%;
+}
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+/**
+ * Links
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+ */
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    border-radius: 0.5rem;
+    background-color: #eef;
+}
+
+pre {
+    padding: 0.5rem 0.75rem;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/**
+ * Icons
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+ */
+
+@import 'syntax-highlighting';
 
 /**
  * Custom add on styles
@@ -66,25 +159,12 @@ $merri-font-family: 'Merriweather', serif;
 $mono-font-family: 'Roboto Mono', monospace;
 $slabo-font-family: 'Slabo 13px', serif;
 
-/* Old Fonts
-$head-font-family: "Ovo", "Georgia", serif;
-$text-font-family: "Muli", "Verdana", sans-serif;
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $head-font-family;
-}
-
-p {
-  font-family: $text-font-family;
-}
-*/
-
 /* Font assignments */
-.cinzel, .footer-heading, .site-title {
+.cinzel {
   font-family: $cinzel-font-family;
 }
 
-.cour, .post-title, .page-link, h1 {
+.cour, h1 {
   font-family: $cour-font-family;
 }
 
@@ -92,7 +172,7 @@ p {
   font-family: $merri-font-family;
 }
 
-.mono, .copyright-notice, code {
+.mono, .copyright-notice, code, pre {
   font-family: $mono-font-family;
 }
 
@@ -109,18 +189,17 @@ p {
 
 main {
   border: white solid 0.25rem;
+  border-radius: 18%;
   padding: 3rem 4rem;
   margin: 6rem;
   background-color: rgba(0,0,0,0.67);
   color: white;
 }
 
-h1, h2 {
-  text-align: center;
-}
-
 /* Parallax */
 #parallax {
+  border-bottom: black solid 0.25rem;
+  border-radius: 18%;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -138,6 +217,8 @@ h1, h2 {
 
 #parallax-img::after {
   background-color: rgba(0,0,0,0.23);
+  border: black solid 0.25rem;
+  border-radius: 18%;
   content: "";
   height: 100%;
   position: absolute;

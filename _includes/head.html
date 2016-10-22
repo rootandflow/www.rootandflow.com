@@ -3,11 +3,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>
+    {% if page.title %}
+      {{ page.title | prepend: 'RnF.com &gt;&gt; '
+        | markdownify | strip_html | strip_newlines }}
+    {% else %}
+      {{ site.title
+        | markdownify | strip_html | strip_newlines }}
+    {% endif %}
+  </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
 {% if jekyll.environment == 'production' %}
   <!-- Both Github pages sites, published at main repo and forks -->
@@ -22,6 +27,8 @@
   <script type="text/javascript" src="{{ '/js/dev.bundle.js' | prepend: site.baseurl }}"></script>
   {% else %}
   <!-- Only on Github pages site published at CNAME domain from main repo -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <meta name="p:domain_verify" content="b509d25ada19bfe555a02656e5b1cc99"/>
 
   {% include google_tag_manager.html %}
@@ -80,11 +87,6 @@
     </script>
   <script type="text/javascript" src="{{ '/js/vendor.bundle.js' | prepend: site.baseurl }}"></script>
   <script type="text/javascript" src="{{ '/js/site.bundle.js' | prepend: site.baseurl }}"></script>
-
-  <link rel="stylesheet"
-       href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css"
-    onerror="this.href='{{ "/css/foundation.6.02.03.min.css" | prepend: site.baseurl }}'"
-  />
 
   <link rel="stylesheet" href='{{ "/css/main.css" | prepend: site.baseurl }}'>
 

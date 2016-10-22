@@ -1,12 +1,14 @@
 ---
 layout: global
 ---
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | markdownify | strip_html | strip_newlines }}</h1>
-    {% if page.description %}<p>{{ page.description | markdownify | strip_html | strip_newlines }}</p>{% endif %}
+<article>
+  <header>
+    <h1>{{ page.title | markdownify | strip_html | strip_newlines }}</h1>
+    {% if page.description %}
+      <p>{{ page.description | markdownify | strip_html | strip_newlines }}</p>
+    {% endif %}
   </header>
-  <div class="post-content">
+  <div>
     {{ content }}
   </div>
 </article>
