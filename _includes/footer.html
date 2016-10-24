@@ -1,29 +1,32 @@
 <footer class="row" role="contentinfo">
-  <h2>{{ site.title }}</h2>
-    <ul class="contact-list">
-      <li>{{ site.title }}</li>
-      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    </ul>
-    <!--
-    <ul class="social-media-list">
-
-      {% if site.github_username %}
-      <li>
-        {% include icon-github.html username=site.github_username %}
-      </li>
-      {% endif %}
-
-      {% if site.twitter_username %}
-      <li>
-        {% include icon-twitter.html username=site.twitter_username %}
-      </li>
-      {% endif %}
-
-    </ul>
-    -->
-    <p>{{ site.description }}</p>
   <div class="row">
-    <div class="small-12 columns text-right">
+    <div class="small-10 small-push-1 columns menu-centered">
+      <ul class="menu vertical">
+        <li><a href="{{ site.baseurl }}">{{ site.title }}</a></li>
+        <li class="menu-text">{{ site.description }}</li>
+        <li><a href="mailto:{{ site.email }}"><i class="mail"></i>
+            <span>{{ site.email }}</span></a></li>
+        {% if site.github_username or site.twitter_username%}
+        <li>
+          <ul class="menu nested">
+          {% if site.github_username %}
+            <li><a href="https://github.com/{{ site.github_username }}">
+              <i class="social-github"></i> <span>Github</span>
+            </a></li>
+          {% endif %}
+          {% if site.twitter_username %}
+            <li><a href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="social-twitter"></i> <span>Twitter</span>
+            </a></li>
+          {% endif %}
+          </ul>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-10 small-push-1 columns text-center">
       {% include cc_no_derivatives.html %}
     </div>
   </div>
