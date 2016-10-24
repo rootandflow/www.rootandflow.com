@@ -1,0 +1,28 @@
+$soFontFileName: "fonts/social_foundicons" !default;
+$soFontName: "SocialFoundicons" !default;
+$soClassPrefix: "so-" !default;
+
+@mixin i-class($name,$pua) {
+  .#{$soClassPrefix}#{$name}:before {
+    content: unquote('"\\f#{$pua}"');
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$soClassPrefix}#{$name} {
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};");
+  }
+}
+
+@mixin face {
+  @font-face {
+    font-family: $soFontName;
+    src: url('#{$soFontFileName}.eot');
+    src: url('#{$soFontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$soFontFileName}.woff') format('woff'),
+         url('#{$soFontFileName}.ttf') format('truetype'),
+         url('#{$soFontFileName}.svg##{$soFontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

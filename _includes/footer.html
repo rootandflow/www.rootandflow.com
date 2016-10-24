@@ -4,19 +4,19 @@
       <ul class="menu vertical">
         <li><a href="{{ site.baseurl }}">{{ site.title }}</a></li>
         <li class="menu-text">{{ site.description }}</li>
-        <li><a href="mailto:{{ site.email }}"><i class="mail"></i>
+        <li><a href="mailto:{{ site.email }}"><i class="gen-mail"></i>
             <span>{{ site.email }}</span></a></li>
         {% if site.github_username or site.twitter_username%}
         <li>
           <ul class="menu nested">
           {% if site.github_username %}
             <li><a href="https://github.com/{{ site.github_username }}">
-              <i class="social-github"></i> <span>Github</span>
+              <i class="so-github"></i> <span>Github</span>
             </a></li>
           {% endif %}
           {% if site.twitter_username %}
             <li><a href="https://twitter.com/{{ site.twitter_username }}">
-                <i class="social-twitter"></i> <span>Twitter</span>
+                <i class="so-twitter"></i> <span>Twitter</span>
             </a></li>
           {% endif %}
           </ul>
