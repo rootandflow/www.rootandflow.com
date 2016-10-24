@@ -1,0 +1,28 @@
+$genFontFileName: "fonts/general_foundicons" !default;
+$genFontName: "GeneralFoundicons" !default;
+$genClassPrefix: "gen-" !default;
+
+@mixin i-class($name,$pua) {
+  .#{$genClassPrefix}#{$name}:before {
+    content: unquote('"\\f#{$pua}"');
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$genClassPrefix}#{$name} {
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};");
+  }
+}
+
+@mixin face {
+  @font-face {
+    font-family: $genFontName;
+    src: url('#{$genFontFileName}.eot');
+    src: url('#{$genFontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$genFontFileName}.woff') format('woff'),
+         url('#{$genFontFileName}.ttf') format('truetype'),
+         url('#{$genFontFileName}.svg##{$genFontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
