@@ -12,82 +12,127 @@
         | markdownify | strip_html | strip_newlines }}
     {% endif %}
   </title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description"
+     content="{% if page.excerpt %}
+                {{ page.excerpt | strip_html
+                                | strip_newlines
+                                | truncate: 160 }}
+              {% else %}
+                {{ site.description }}
+              {% endif %}
+  ">
 
 {% if jekyll.environment == 'production' %}
-  <!-- Both Github pages sites, published at main repo and forks -->
+    {% comment %}
+    Both Github pages sites, published at main repo and forks
+    {% endcomment %}
   {% if site.url != site.github.url %}
-  <!-- Only on Github pages site staged from user project forks -->
+    {% comment %}
+    Only on Github pages site staged from user project forks
+    {% endcomment %}
   {% endif %}
-  {% else %}
-  <!-- Only on localhost served from user local machine dev copies -->
+{% else %}
+    {% comment %}
+    Only on localhost served from user local machine dev copies
+    {% endcomment %}
 {% endif %}
 {% if site.url != site.github.url %}
-  <!-- Both staging sites served online from user forks and from local dev copies -->
+    {% comment %}
+    Both staging sites served online from user forks and from local dev copies
+    {% endcomment %}
   <script type="text/javascript" src="{{ '/js/dev.bundle.js' | prepend: site.baseurl }}"></script>
-  {% else %}
-  <!-- Only on Github pages site published at CNAME domain from main repo -->
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+{% else %}
+    {% comment %}
+    Only on Github pages site published at CNAME domain from main repo
+    {% endcomment %}
+  <link rel="canonical" href="{{ page.url | replace: 'index.html',''
+                                          | absolute_url }}
+  ">
+  <link rel="alternate"
+       type="application/rss+xml"
+      title="{{ site.title }}"
+       href="{{ "/feed.xml" | absolute_url }}
+  ">
   <meta name="p:domain_verify" content="b509d25ada19bfe555a02656e5b1cc99"/>
 
   {% include google_tag_manager.html %}
 {% endif %}
 {% if site.url == site.github.url or jekyll.environment == 'development' %}
-  <!-- Both on Github pages site published from main repo and from local dev copies -->
+    {% comment %}
+    Both on Github pages site published from main repo and from local dev copies
+    {% endcomment %}
 {% endif %}
-  <!-- Across all sites: main, forks and local -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>
+    {% comment %}
+    Across all sites: main, forks and local
+    {% endcomment %}
+  <! -- jQuery -->
+  <script type="text/javascript"
+           src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+  </script>
+  <script>
     try {
       window.jQuery.fn.jquery;
     } catch (e) {
     document.write
-    ("<script type='text/javascript' src='{{ '/js/fallbacks/jquery.min.js'
-                  | prepend: site.baseurl }}'>\x3C/script>");
+    ("<script type='text/javascript' src='{{ '/js/jquery.min.js'
+                                           | relative_url }}'>\x3C/script>");
     }
-    </script>
+  </script>
   <! -- TypeKit WebFontLoader -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.24/webfontloader.js"></script>
-    <script>
+  <script type="text/javascript"
+           src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.24/webfontloader.js">
+  </script>
+  <script>
     try {
       window.WebFont.load.name;
     } catch (e) {
     document.write
-    ("<script type='text/javascript' src='{{ '/js/fallbacks/webfontloader.js'
-                  | prepend: site.baseurl }}'>\x3C/script>");
+    ("<script type='text/javascript' src='{{ '/js/webfontloader.js'
+                                           | relative_url }}'>\x3C/script>");
     }
-    </script>
-    <script>
+  </script>
+  <script>
     WebFont.load({
       google: {
-        families: ['Cinzel+Decorative:400:latin', 'Courgette::latin', 'Merriweather:300,300italic,700,700italic:latin', 'Roboto+Mono:400,400italic,700,700italic:latin', 'Slabo+13px::latin']
+        families: ['Cinzel+Decorative:400:latin',
+                   'Courgette::latin',
+                   'Merriweather:300,300italic,700,700italic:latin',
+                   'Roboto+Mono:400,400italic,700,700italic:latin',
+                   'Slabo+13px::latin']
       }
     });
-    </script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
-    <script>
+  </script>
+  <script type="text/javascript"
+           src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js">
+  </script>
+  <script>
     try {
       window.Foundation.version;
     } catch (e) {
     document.write
-    ("<script type='text/javascript' src='{{ '/js/foundation.6.2.3.min.js'
-                  | prepend: site.baseurl }}'>\x3C/script>");
+    ("<script type='text/javascript' src='{{ '/js/foundation.min.js'
+                                           | relative_url }}'>\x3C/script>");
     }
-    </script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/what-input/2.1.0/what-input.min.js"></script>
-    <script>
+  </script>
+  <script type="text/javascript"
+           src="https://cdn.jsdelivr.net/what-input/2.1.0/what-input.min.js">
+  </script>
+  <script>
     try {
       whatInput.ask.name;
     } catch (e) {
     document.write
-    ("<script type='text/javascript' src='{{ '/js/what-input.2.1.0.min.js'
-                  | prepend: site.baseurl }}'>\x3C/script>");
+    ("<script type='text/javascript' src='{{ '/js/what-input.min.js'
+                                           | relative_url }}'>\x3C/script>");
     }
-    </script>
-  <script type="text/javascript" src="{{ '/js/vendor.bundle.js' | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ '/js/site.bundle.js' | prepend: site.baseurl }}"></script>
+  </script>
+  <script type="text/javascript"
+           src="{{ '/js/vendor.bundle.js' | relative_url }}">
+  </script>
+  <script type="text/javascript" 
+           src="{{ '/js/site.bundle.js' | relative_url }}">
+  </script>
 
-  <link rel="stylesheet" href='{{ "/css/main.css" | prepend: site.baseurl }}'>
+  <link rel="stylesheet" href='{{ "/css/main.css" | relative_url }}'>
 
 </head>

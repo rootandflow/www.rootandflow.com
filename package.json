@@ -24,7 +24,7 @@
   },
   "main": "package.json",
   "dependencies": {
-    "foundation-sites": "^6.2.3",
+    "foundation-sites": "^6.2.4",
     "webfontloader": "^1.6.26"
   },
   "devDependencies": {
@@ -33,13 +33,13 @@
     "holderjs": "^2.9.4",
     "shelljs": "^0.7.4",
     "shx": "^0.1.4",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.3"
   },
   "scripts": {
     "start": "jekyll serve --config _config.local.yml",
     "gems": "shjs _scripts/bin/gems",
     "update": "npm update --save-dev",
-    "vendor": "shx cp -R node_modules/foundation-sites/scss/* _sass && shx mv _sass/foundation.scss _sass/_foundation.scss"
+    "vendor": "shx cp -R node_modules/foundation-sites/scss/* _sass && shx mv _sass/foundation.scss _sass/_foundation.scss && shx cp node_modules/foundation-sites/dist/foundation.min.js js && shx cp node_modules/jquery/dist/jquery.min.js js && shx cp node_modules/webfontloader/webfontloader.js js"
   },
   "private": true,
   "license": "CC-BY-NC-ND-4.0"
