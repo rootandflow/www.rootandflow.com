@@ -1,10 +1,9 @@
 ---
 title: Home
+description: Success with Scalable Strategies  
 top_nav: yes
 scroll: sunlit-river
 ---
-
-## Success with Scalable Strategies  
 
 We're a Web Marketing firm offering expert Design, Web Development and Storytelling skills for your **web sales pipeline**.  
 

@@ -1,33 +1,68 @@
-<header class="row" role="banner">
-  <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+<div data-sticky-container>
 
-  <nav class="site-nav" role="navigation">
-    <a href="#" class="menu-icon">
-      <!--
-      <svg viewBox="0 0 18 15">
-        <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-        <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-        <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-      </svg>
-      -->
-    </a>
+  <header role="banner" class="small-12 sticky" data-sticky data-options="stickyOn:small;marginTop:0">
 
-    <div class="trigger">
-      {% for my_page in site.pages %}
-        {% if my_page.top_nav and my_page.url != page.url %}
-          {% if site.url == site.github.url %}
-            {% if my_page.top_nav != 'dev' %}
-            <a href="{{ my_page.url | prepend: site.baseurl }}">
-              {{ my_page.title }}
+    <nav class="title-bar" data-responsive-toggle="site-nav" data-hide-for="large">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Menu</div>
+    </nav>
+
+    <nav id="site-nav" class="top-bar">
+      <div class="top-bar-left menu-centered">
+        <ul class="menu">
+          <li>
+            <a href="{{ site.baseurl }}/"
+              class="nameplate"
+            >
+              <h1>
+                <strong>{{ site.title }}</strong>
+              </h1>
             </a>
-            {% endif %}
-          {% else %}
-          <a href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
+          </li>
+        </ul>
+      </div>
+      <div id="responsive-menu">
+        <div class="top-bar-right">
+          <ul class="menu vertical">
+            <li>
+              <ul class="menu align-right">
+                <li>
+                  <button type="button"
+                         class="button">Search
+                  </button>
+                </li>
+                <li class="search-box">
+                  <input type="search"
+                  placeholder="Search">
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="dropdown menu" data-dropdown-menu>
+    {% for my_page in site.pages %}
+      {% if my_page.top_nav %}
+        {% if site.url == site.github.url %}
+          {% if my_page.top_nav != 'dev' %}
+                <li {% if my_page.url == page.url %}class="active"{% endif %}>
+                  <a href="{{ my_page.url | relative_url }}">
+                    {{ my_page.title }}
+                  </a>
+                </li>
           {% endif %}
+        {% else %}
+                <li {% if my_page.url == page.url %}class="active"{% endif %}>
+                  <a href="{{ my_page.url | relative_url }}">
+                    {{ my_page.title }}
+                  </a>
+                </li>
         {% endif %}
-      {% endfor %}
-    </div>
-  </nav>
-</header>
+      {% endif %}
+    {% endfor %}
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
