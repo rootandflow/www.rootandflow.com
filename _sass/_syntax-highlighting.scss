@@ -1,9 +1,9 @@
 /**
  * Syntax highlighting styles
  */
+
 .highlight {
-    background: #fff;
-    @extend %vertical-rhythm;
+    margin-bottom: 1rem;
 
     .highlighter-rouge & {
       background: #eef;

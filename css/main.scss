@@ -1,63 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+# Liquid variables can still be passed to Sass partials as Sass variables
 ---
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
-
-/**
- * Custom add on styles
- */
-
-html {
-  background-color: $background-color;
-  height: 100%;
-}
+$cdn: "{{ site.cdn }}";
+$design: "#{$cdn}/design";
+$devices: "#{$design}/device-mockups";
 
 /* FONTS */
 $cinzel-font-family: 'Cinzel Decorative', cursive;
@@ -66,57 +16,144 @@ $merri-font-family: 'Merriweather', serif;
 $mono-font-family: 'Roboto Mono', monospace;
 $slabo-font-family: 'Slabo 13px', serif;
 
-/* Old Fonts
-$head-font-family: "Ovo", "Georgia", serif;
-$text-font-family: "Muli", "Verdana", sans-serif;
+@import 'foundation';
+@import 'settings/settings';
+@include foundation-everything;
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $head-font-family;
+@import 'icons/general_foundicons';
+@import 'icons/social_foundicons';
+
+/**
+ * Links
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+ */
+
+/**
+ * Icons
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+ */
+
+@import 'syntax-highlighting';
+@import 'device-mockups';
+
+/**
+ * Custom add on styles
+ */
+
+html {
+  background-color: $body-background;
+  height: 100%;
 }
 
-p {
-  font-family: $text-font-family;
-}
-*/
-
-/* Font assignments */
-.cinzel, .footer-heading, .site-title {
-  font-family: $cinzel-font-family;
+body {
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  min-height: 100%;
 }
 
-.cour, .post-title, .page-link, h1 {
-  font-family: $cour-font-family;
+h1 {
+  @extend .cinzel;
 }
 
-.merri, p, body {
-  font-family: $merri-font-family;
+h2 {
+  @extend .cour;
 }
 
-.mono, .copyright-notice, code {
-  font-family: $mono-font-family;
+h3, h4, h5, h6, ul {
+  @extend .slabo;
 }
 
-.slabo, h2, h3, h4, h5, h6, ul {
-  font-family: $slabo-font-family;
+pre, code {
+  border-radius: 0.5rem;
+  background-color: #eef;
+  @extend .mono;
 }
 
-.font-light {
-  font-weight: 300;
-}
-.font-heavy {
-  font-weight: 700;
+pre {
+    padding: 0.5rem 0.75rem;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
-main {
-  border: white solid 0.25rem;
-  padding: 3rem 4rem;
-  margin: 6rem;
-  background-color: rgba(0,0,0,0.67);
-  color: white;
+img {
+    max-width: 100%;
+    vertical-align: middle;
 }
 
-h1, h2 {
-  text-align: center;
+figure > img {
+    display: block;
+}
+
+figcaption {
+  font-size: 0.875rem;
+}
+
+/* Top bar */
+
+.top-bar-left .nameplate {
+  padding: 0.625rem;
+}
+
+.top-bar-right {
+  font-size: 1.25rem;
+  > .vertical > li {
+    margin: 0.75rem 0 0;
+  }
+  .search-box {
+    width: 74%;
+  }
+}
+
+.nameplate h1 {
+  font-size: 1.75rem;
+  line-height: 1;
+  margin: 0;
+  @extend .cinzel;
+  @include breakpoint(medium) {
+    font-size: 2rem;
+  }
+  @include breakpoint(large) {
+    font-size: 3.25rem;
+  }
+}
+
+/* Device Mockups */
+.device {
+  color: $white;
+  @extend .mono;
+}
+
+.screen {
+  padding: 0.0625rem 0.25rem;
 }
 
 /* Parallax */
@@ -130,7 +167,7 @@ h1, h2 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-position: center bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: -100;
@@ -142,5 +179,58 @@ h1, h2 {
   height: 100%;
   position: absolute;
   width: 100%;
+}
+
+#parallax > header {
+  border: white solid 0.125rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0,0,0,0.67);
+  color: white;
+  padding: 1rem 1.33rem;
+  margin: 2rem;
+  @include breakpoint(large) {
+    padding: 3rem 4rem;
+    margin: 6rem;
+  }
+}
+
+.copyright-notice {
+  font-size: 0.6875rem;
+  line-height: 1.2728;
+  @extend .mono;
+}
+
+.masthead {
+  background-color: $black;
+  color: $white;
+  padding: 1rem 0;
+}
+
+/* Font classes */
+.cinzel {
+  font-family: $cinzel-font-family;
+}
+
+.cour {
+  font-family: $cour-font-family;
+}
+
+.merri {
+  font-family: $merri-font-family;
+}
+
+.mono {
+  font-family: $mono-font-family;
+}
+
+.slabo {
+  font-family: $slabo-font-family;
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-heavy {
+  font-weight: 700;
 }
 

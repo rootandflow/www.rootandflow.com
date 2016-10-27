@@ -7,26 +7,11 @@
 
     {% include header.html %}
 
-    {% if page.scroll %}
-    <div id="parallax" class="row">
-      <div id="parallax-img"
-        style="background-image: url('{{ site.cdn }}/design/photos/{{ page.scroll }}--full.jpg');"
-      ></div>
-
-        <main class="content" role="main">
-          {{ content }}
-        </main>
-
-    </div>
-    {% else %}
-        <main class="content">
-          {{ content }}
-        </main>
-    {% endif %}
+    {{ content }}
 
     {% include footer.html %}
 
-    <script src="js/parallax.js"></script>
+    <script src='{{ "/js/parallax.js" | prepend: site.baseurl }}'></script>
     <script>
     $(document).ready(function($) {
       {% for func in page.functions %}
