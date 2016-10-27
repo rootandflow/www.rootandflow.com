@@ -1,30 +1,41 @@
-<footer class="row" role="contentinfo">
-  <h2>{{ site.title }}</h2>
-    <ul class="contact-list">
-      <li>{{ site.title }}</li>
-      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    </ul>
-    <!--
-    <ul class="social-media-list">
-
+<footer class="masthead row" role="contentinfo">
+  <div class="small-12 columns menu-centered">
+    <ul class="menu vertical">
+      <li>
+        <a class="cinzel" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </li>
+      <li class="menu-text">{{ site.description }}</li>
+      <li>
+        <a href="mailto:{{ site.email }}">
+          <span>{{ site.email }}</span>
+          <i class="gen-mail"></i>
+        </a>
+      </li>
+    {% if site.github_username or site.twitter_username%}
+      <li>
+        <ul class="menu nested">
       {% if site.github_username %}
-      <li>
-        {% include icon-github.html username=site.github_username %}
-      </li>
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              <span>RnF on Github</span>
+              <i class="so-github"></i>
+            </a>
+          </li>
       {% endif %}
-
       {% if site.twitter_username %}
-      <li>
-        {% include icon-twitter.html username=site.twitter_username %}
-      </li>
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span>RnF on Twitter</span>
+              <i class="so-twitter"></i>
+            </a>
+          </li>
       {% endif %}
-
+        </ul>
+      </li>
+    {% endif %}
     </ul>
-    -->
-    <p>{{ site.description }}</p>
-  <div class="row">
-    <div class="small-12 columns text-right">
-      {% include cc_no_derivatives.html %}
-    </div>
+  </div>
+  <div class="small-12 columns text-center">
+    {% include cc_no_derivatives.html %}
   </div>
 </footer>

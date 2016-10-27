@@ -1,22 +1,61 @@
 ---
 layout: global
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article class="row" itemscope itemtype="http://schema.org/BlogPosting">
+{% if page.scroll %}
+  {% assign parallax = page.scroll | append: '--'
+                                   | prepend: '/design/photos/'
+                                   | prepend: site.cdn %}
+  <div id="parallax">
+    <div id="parallax-img"
+         data-interchange="
+           [{{ parallax | append: '0640.jpg' }}, small],
+           [{{ parallax | append: '1024.jpg' }}, medium],
+           [{{ parallax | append: '1536.jpg' }}, large],
+           [{{ parallax | append: '0640@2x.jpg' }}, retina],
+           [{{ parallax | append: '1024@2x.jpg' }}, medium_retina],
+           [{{ parallax | append: '1536@2x.jpg' }}, large_retina]">
+    </div>
+  {% endif %}
 
-  <header>
-    <h1 itemprop="name headline">{{ page.title }}</h1>
-    {% if page.subtitle %}
-      <p class="lead text-center">{{ page.subtitle }}</p>
-    {% endif %}
-    <p class="text-right">Published: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+    <header>
+      <h1 itemprop="name headline">{{ page.title
+                                      | markdownify
+                                      | strip_html
+                                      | strip_newlines
+                                      }}
+      </h1>
+      {% if page.subtitle %}
+        <p class="lead text-center">{{ page.subtitle
+                                       | markdownify
+                                       | strip_html
+                                       | strip_newlines
+                                       }}
+        </p>
+      {% endif %}
+        <p class="text-right">Published:
+          <time datetime="{{ page.date | date_to_xmlschema }}"
+                itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
+          </time>
+        </p>
+      {% if page.author %}
+        <p class="text-right" itemprop="author" itemscope itemtype="http://schema.org/Person">By:
+          <span itemprop="name">{{ page.author }}</span>
+        </p>
+      {% endif %}
+    </header>
 
-  <div itemprop="articleBody">
-    {{ content }}
+{% if page.scroll %}
   </div>
+{% endif %}
+
+  <main class="content column small-12" itemprop="articleBody" role="main">
+    {{ content }}
+  </main>
+
+  <footer>
+    {% include posts_list.html %}
+    {% include rss_subscribe.html %}
+  </footer>
 
 </article>
-
-{% include posts_list.html %}
-
-{% include rss_subscribe.html %}
