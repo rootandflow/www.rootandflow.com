@@ -1,14 +1,44 @@
 ---
 layout: global
 ---
-<article>
-  <header>
-    <h1>{{ page.title | markdownify | strip_html | strip_newlines }}</h1>
-    {% if page.description %}
-      <p>{{ page.description | markdownify | strip_html | strip_newlines }}</p>
-    {% endif %}
-  </header>
-  <div>
-    {{ content }}
+<article class="row">
+{% if page.scroll %}
+  {% assign parallax = page.scroll | append: '--'
+                                   | prepend: '/design/photos/'
+                                   | prepend: site.cdn %}
+  <div id="parallax">
+    <div id="parallax-img"
+         data-interchange="
+           [{{ parallax | append: '0640.jpg' }}, small],
+           [{{ parallax | append: '1024.jpg' }}, medium],
+           [{{ parallax | append: '1536.jpg' }}, large],
+           [{{ parallax | append: '0640@2x.jpg' }}, retina],
+           [{{ parallax | append: '1024@2x.jpg' }}, medium_retina],
+           [{{ parallax | append: '1536@2x.jpg' }}, large_retina]">
+    </div>
+  {% endif %}
+
+    <header>
+      <h1>{{ page.title | markdownify
+                        | strip_html
+                        | strip_newlines
+                        }}
+      </h1>
+      {% if page.description %}
+        <p class="lead text-center">{{ page.description | markdownify
+                                                        | strip_html
+                                                        | strip_newlines
+                                                        }}
+        </p>
+      {% endif %}
+    </header>
+
+{% if page.scroll %}
   </div>
+{% endif %}
+
+  <main class="content small-12 column" role="main">
+    {{ content }}
+  </main>
+
 </article>

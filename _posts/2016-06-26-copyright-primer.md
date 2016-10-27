@@ -1,9 +1,10 @@
 ---
-layout: post
+author: Remy Schrader
 title: "Copyright: Who really owns your work?"
 subtitle: "A Brief Primer on Exclusive and Non-exclusive License Rights"
-date:   2016-06-25 07:30:00 -0700
+date: 2016-06-25 07:30:00 -0700
 categories: strategy legal
+scroll: sunlit-river
 ---
 
 If I make a website for a client and all the coding is original work
@@ -13,7 +14,7 @@ If I make a website for a client and all the coding is original work
  or is this only something they can do if they pay extra
  for the exclusive license?
 
-## Know What Your Options Are  
+## Know What Your Options Are
 
  This article is intended as a guide -- it is not a substitute for professional legal advice.
 Please note that I am _not_ a lawyer or legal professional.
