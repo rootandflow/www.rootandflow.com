@@ -46,12 +46,12 @@
     Only on Github pages site published at CNAME domain from main repo
     {% endcomment %}
   <link rel="canonical" href="{{ page.url | replace: 'index.html',''
-                                          | absolute_url }}
+                                          | prepend: site.url }}
   ">
   <link rel="alternate"
        type="application/rss+xml"
       title="{{ site.title }}"
-       href="{{ "/feed.xml" | absolute_url }}
+       href="{{ "/feed.xml" | prepend: site.url }}
   ">
   <meta name="p:domain_verify" content="b509d25ada19bfe555a02656e5b1cc99"/>
 
@@ -75,7 +75,7 @@
     } catch (e) {
     document.write
     ("<script type='text/javascript' src='{{ '/js/jquery.min.js'
-                                           | relative_url }}'>\x3C/script>");
+                                           | prepend: site.baseurl }}'>\x3C/script>");
     }
   </script>
   <! -- TypeKit WebFontLoader -->
@@ -88,7 +88,7 @@
     } catch (e) {
     document.write
     ("<script type='text/javascript' src='{{ '/js/webfontloader.js'
-                                           | relative_url }}'>\x3C/script>");
+                                           | prepend: site.baseurl }}'>\x3C/script>");
     }
   </script>
   <script>
@@ -111,7 +111,7 @@
     } catch (e) {
     document.write
     ("<script type='text/javascript' src='{{ '/js/foundation.min.js'
-                                           | relative_url }}'>\x3C/script>");
+                                           | prepend: site.baseurl }}'>\x3C/script>");
     }
   </script>
   <script type="text/javascript"
@@ -123,16 +123,16 @@
     } catch (e) {
     document.write
     ("<script type='text/javascript' src='{{ '/js/what-input.min.js'
-                                           | relative_url }}'>\x3C/script>");
+                                           | prepend: site.baseurl }}'>\x3C/script>");
     }
   </script>
   <script type="text/javascript"
-           src="{{ '/js/vendor.bundle.js' | relative_url }}">
+           src="{{ '/js/vendor.bundle.js' | prepend: site.baseurl }}">
   </script>
   <script type="text/javascript" 
-           src="{{ '/js/site.bundle.js' | relative_url }}">
+           src="{{ '/js/site.bundle.js' | prepend: site.baseurl }}">
   </script>
 
-  <link rel="stylesheet" href='{{ "/css/main.css" | relative_url }}'>
+  <link rel="stylesheet" href='{{ "/css/main.css" | prepend: site.baseurl }}'>
 
 </head>
