@@ -145,6 +145,14 @@ figcaption {
     font-size: 3.25rem;
   }
 }
+/* Search Results */
+#results-container li {
+  font-size: 1.1875rem;
+  span {
+    font-size: inherit;
+    text-align: inherit;
+  }
+}
 
 /* Device Mockups */
 .device {

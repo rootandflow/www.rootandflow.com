@@ -1,0 +1,12 @@
+{% assign parallax = page.scroll | append: '--'
+                                 | prepend: '/design/photos/'
+                                 | prepend: site.cdn %}
+    <div id="parallax-img"
+         data-interchange="
+           [{{ parallax | append: '0640.jpg' }}, small],
+           [{{ parallax | append: '1024.jpg' }}, medium],
+           [{{ parallax | append: '1536.jpg' }}, large],
+           [{{ parallax | append: '0640@2x.jpg' }}, retina],
+           [{{ parallax | append: '1024@2x.jpg' }}, medium_retina],
+           [{{ parallax | append: '1536@2x.jpg' }}, large_retina]">
+    </div>

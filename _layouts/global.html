@@ -11,13 +11,13 @@
 
     {% include footer.html %}
 
-    <script src='{{ "/js/parallax.js" | prepend: site.baseurl }}'></script>
+    <script src='{{ "/js/site.js" | prepend: site.baseurl }}'></script>
     <script type="text/javascript">
       SimpleJekyllSearch.init({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         dataSource: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}"><span>{title}</span> <span class="badge success"><i class="gen-paper-clip"></i></span></a></li>',
         noResultsText: 'No results found',
         limit: 10,
         fuzzy: true,
