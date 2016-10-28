@@ -66,10 +66,6 @@ exclude:
 ## Site metadata
 title: "RootAndFlow.com"
 description: "Web Marketing and Design"
-### Contact information 
-email: connect@rootandflow.com
-twitter_username: rootandflow
-github_username: rootandflow
 
 ### Collections
 collections:
