@@ -6,33 +6,25 @@
       </li>
       <li class="menu-text">{{ site.description }}</li>
       <li>
-        <a href="mailto:{{ site.email }}">
-          <span>{{ site.email }}</span>
+        <a href="mailto:{{ site.data.contact.nap.email }}">
+          <span>{{ site.data.contact.nap.email }}</span>
           <i class="gen-mail"></i>
         </a>
       </li>
-    {% if site.github_username or site.twitter_username%}
+      {% if site.data.contact.social %}
       <li>
         <ul class="menu nested">
-      {% if site.github_username %}
+        {% for social in site.data.contact.social %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span>RnF on Github</span>
-              <i class="so-github"></i>
+            <a href="{{ social.user | prepend: social.url }}">
+              <span>{{ site.data.contact.nap.sn }} on {{ social.account }}</span>
+              <i class="{{ social.account | downcase | prepend: 'so-' }}"></i>
             </a>
           </li>
-      {% endif %}
-      {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span>RnF on Twitter</span>
-              <i class="so-twitter"></i>
-            </a>
-          </li>
-      {% endif %}
+        {% endfor %}
         </ul>
       </li>
-    {% endif %}
+      {% endif %}
     </ul>
   </div>
   <div class="small-12 columns text-center">
