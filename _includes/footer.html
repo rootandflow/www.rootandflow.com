@@ -16,7 +16,7 @@
         <ul class="menu nested">
         {% for social in site.data.contact.social %}
           <li>
-            <a href="{{ social.user | prepend: social.url }}">
+            <a target="_blank" href="{{ social.user | prepend: social.url }}">
               <span>{{ site.data.contact.nap.sn }} on {{ social.account }}</span>
               <i class="{{ social.account | downcase | prepend: 'so-' }}"></i>
             </a>
