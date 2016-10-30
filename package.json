@@ -25,6 +25,7 @@
   "main": "package.json",
   "dependencies": {
     "foundation-sites": "^6.2.4",
+    "plyr": "^2.0.9",
     "webfontloader": "^1.6.26"
   },
   "devDependencies": {
