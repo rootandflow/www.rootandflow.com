@@ -1,61 +1,69 @@
 ---
 layout: global
 ---
-<article class="row" itemscope itemtype="http://schema.org/BlogPosting">
-{% if page.scroll %}
-  {% assign parallax = page.scroll | append: '--'
-                                   | prepend: '/design/photos/'
-                                   | prepend: site.cdn %}
-  <div id="parallax">
-    <div id="parallax-img"
-         data-interchange="
-           [{{ parallax | append: '0640.jpg' }}, small],
-           [{{ parallax | append: '1024.jpg' }}, medium],
-           [{{ parallax | append: '1536.jpg' }}, large],
-           [{{ parallax | append: '0640@2x.jpg' }}, retina],
-           [{{ parallax | append: '1024@2x.jpg' }}, medium_retina],
-           [{{ parallax | append: '1536@2x.jpg' }}, large_retina]">
-    </div>
-  {% endif %}
-
-    <header>
-      <h1 itemprop="name headline">{{ page.title
-                                      | markdownify
-                                      | strip_html
-                                      | strip_newlines
-                                      }}
-      </h1>
+<div class="layout--post">
+  <main role="main">
+    <article>
+      <div id="parallax" class="parallax">
+        {% include parallax_image.html %}
+        <header class="parallax--content">
+          <div class="banderole">
+            <div class="titlelines">
+              <h1 class="headline">{{ page.title | markdownify
+                                | strip_html
+                                | strip_newlines
+                                }}
+              </h1>
       {% if page.subtitle %}
-        <p class="lead text-center">{{ page.subtitle
-                                       | markdownify
-                                       | strip_html
-                                       | strip_newlines
-                                       }}
-        </p>
+              <p class="subhead">{{ page.subtitle
+                                             | markdownify
+                                             | strip_html
+                                             | strip_newlines
+                                             }}
+              </p>
       {% endif %}
-        <p class="text-right">Published:
-          <time datetime="{{ page.date | date_to_xmlschema }}"
-                itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
-          </time>
-        </p>
+              <dl class="byline">
       {% if page.author %}
-        <p class="text-right" itemprop="author" itemscope itemtype="http://schema.org/Person">By:
-          <span itemprop="name">{{ page.author }}</span>
-        </p>
+                <dt>By:</dt>
+                <dd><span>{{ page.author }}</span></dd>
       {% endif %}
-    </header>
+                <dt>Published:</dt>
+                <dd>
+                  <time datetime="{{ page.date | date_to_xmlschema }}">
+                    {{ page.date | date: "%b %-d, %Y" }}
+                  </time>
+                </dd>
+      {% if page.updated %}
+                <dt>Updated:</dt>
+                <dd>
+                  <time datetime="{{ page.updated | date_to_xmlschema }}">
+                    {{ page.date | date: "%b %-d, %Y" }}
+                  </time>
+                </dd>
+      {% endif %}
+                <dt>RSS:</dt>
+                <dd>
+                {% include rss_subscribe.html %}
+                </dd>
+              </dl>
+            </div>
+            <div class="search-results">
+              <ul id="results-container" class="menu vertical text-right"></ul>
+            </div>
+          </div>
+        </header>
+      </div>
 
-{% if page.scroll %}
-  </div>
-{% endif %}
+      <section class="content--post">
+        <hr/>
+        {{ content }}
+      </section>
+    </article>
 
-  <main class="content column small-12" itemprop="articleBody" role="main">
-    {{ content }}
   </main>
 
-  <footer>
+  <aside class="sidebar--post">
+    <hr/>
     {% include posts_list.html %}
-    {% include rss_subscribe.html %}
-  </footer>
-
-</article>
+  </aside>
+</div>
