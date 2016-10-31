@@ -1,7 +1,7 @@
 {% assign parallax = page.scroll | append: '--'
                                  | prepend: '/design/photos/'
                                  | prepend: site.cdn %}
-    <div id="parallax-img"
+    <div id="parallax-img" class="parallax--image"
          data-interchange="
            [{{ parallax | append: '0640.jpg' }}, small],
            [{{ parallax | append: '1024.jpg' }}, medium],
