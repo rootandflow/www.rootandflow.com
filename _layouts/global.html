@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
   {% include head.html %}
-
   <body>
+    <div class="layout--global">
 
-    {% include header.html %}
+      {% include site-nav.html %}
+      {{ content }}
+      {% include footer.html %}
 
-    {{ content }}
-
-    {% include footer.html %}
-
-    <script src='{{ "/js/site.js" | prepend: site.baseurl }}'></script>
-    <script type="text/javascript">
-      SimpleJekyllSearch.init({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        dataSource: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}"><span>{title}</span> <span class="badge success"><i class="gen-paper-clip"></i></span></a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: true,
+      <script src='{{ "/js/site.js" | prepend: site.baseurl }}'></script>
+      <script type="text/javascript">
+        SimpleJekyllSearch.init({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          dataSource: '{{ site.baseurl }}/search.json',
+          searchResultTemplate: '<li><a href="{url}" title="{desc}"><span>{title}</span> <span class="badge success"><i class="gen-paper-clip"></i></span></a></li>',
+          noResultsText: 'No results found',
+          limit: 10,
+          fuzzy: true,
+        });
+      </script>
+      <script>
+      $(document).ready(function($) {
+        {% for func in page.functions %}
+          {% include functions/{{ func }}.js %}
+        {% endfor %}
       });
-    </script>
-    <script>
-    $(document).ready(function($) {
-      {% for func in page.functions %}
-        {% include functions/{{ func }}.js %}
-      {% endfor %}
-    });
-    </script>
-
+      </script>
+    </div>
   </body>
-
 </html>

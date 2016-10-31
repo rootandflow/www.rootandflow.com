@@ -1,5 +1,5 @@
-<footer class="masthead row" role="contentinfo">
-  <div class="small-12 columns menu-centered">
+<footer role="contentinfo" class="include--footer">
+  <div class="menu-centered masthead">
     <ul class="menu vertical">
       <li>
         <a class="cinzel" href="{{ site.baseurl }}/">{{ site.title }}</a>
@@ -12,7 +12,7 @@
         </a>
       </li>
       {% if site.data.contact.social %}
-      <li>
+      <li class="menu-centered">
         <ul class="menu nested">
         {% for social in site.data.contact.social %}
           <li>
@@ -25,9 +25,9 @@
         </ul>
       </li>
       {% endif %}
+      <li>
+      {% include cc_no_derivatives.html %}
+      </li>
     </ul>
-  </div>
-  <div class="small-12 columns text-center">
-    {% include cc_no_derivatives.html %}
   </div>
 </footer>

@@ -1,49 +1,69 @@
 ---
 layout: global
 ---
-<article class="row" itemscope itemtype="http://schema.org/BlogPosting">
-  <div id="parallax" class="row expanded">
-    {% include parallax_image.html %}
-    <header class="row">
-      <div class="column large-6">
-        <h1 itemprop="name headline">{{ page.title
-                                        | markdownify
-                                        | strip_html
-                                        | strip_newlines
-                                        }}
-        </h1>
-{% if page.subtitle %}
-        <p class="lead text-center">{{ page.subtitle
-                                       | markdownify
-                                       | strip_html
-                                       | strip_newlines
-                                       }}
-        </p>
-{% endif %}
-        <p>Published:
-          <time datetime="{{ page.date | date_to_xmlschema }}"
-                itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
-          </time>
-        </p>
-{% if page.author %}
-        <p itemprop="author" itemscope itemtype="http://schema.org/Person">By:
-          <span itemprop="name">{{ page.author }}</span>
-        </p>
-{% endif %}
+<div class="layout--post">
+  <main role="main">
+    <article>
+      <div id="parallax" class="parallax">
+        {% include parallax_image.html %}
+        <header class="parallax--content">
+          <div class="banderole">
+            <div class="titlelines">
+              <h1 class="headline">{{ page.title | markdownify
+                                | strip_html
+                                | strip_newlines
+                                }}
+              </h1>
+      {% if page.subtitle %}
+              <p class="subhead">{{ page.subtitle
+                                             | markdownify
+                                             | strip_html
+                                             | strip_newlines
+                                             }}
+              </p>
+      {% endif %}
+              <dl class="byline">
+      {% if page.author %}
+                <dt>By:</dt>
+                <dd><span>{{ page.author }}</span></dd>
+      {% endif %}
+                <dt>Published:</dt>
+                <dd>
+                  <time datetime="{{ page.date | date_to_xmlschema }}">
+                    {{ page.date | date: "%b %-d, %Y" }}
+                  </time>
+                </dd>
+      {% if page.updated %}
+                <dt>Updated:</dt>
+                <dd>
+                  <time datetime="{{ page.updated | date_to_xmlschema }}">
+                    {{ page.date | date: "%b %-d, %Y" }}
+                  </time>
+                </dd>
+      {% endif %}
+                <dt>RSS:</dt>
+                <dd>
+                {% include rss_subscribe.html %}
+                </dd>
+              </dl>
+            </div>
+            <div class="search-results">
+              <ul id="results-container" class="menu vertical text-right"></ul>
+            </div>
+          </div>
+        </header>
       </div>
-      <div class="column large-6">
-        <ul id="results-container" class="menu vertical text-right"></ul>
-      </div>
-    </header>
-  </div>
 
-  <main class="content column small-12" itemprop="articleBody" role="main">
-    {{ content }}
+      <section class="content--post">
+        <hr/>
+        {{ content }}
+      </section>
+    </article>
+
   </main>
 
-  <footer class="column small-12">
+  <aside class="sidebar--post">
+    <hr/>
     {% include posts_list.html %}
-    {% include rss_subscribe.html %}
-  </footer>
-
-</article>
+  </aside>
+</div>
