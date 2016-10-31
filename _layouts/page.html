@@ -1,33 +1,38 @@
 ---
 layout: global
 ---
-<article class="row expanded">
-  <div id="parallax" class="row expanded">
-    {% include parallax_image.html %}
-    <header class="row">
-      <div class="column large-6">
-        <h1>{{ page.title | markdownify
-                          | strip_html
-                          | strip_newlines
-                          }}
-        </h1>
-{% if page.description %}
-        <p class="lead text-center">{{ page.description
-                                       | markdownify
-                                       | strip_html
-                                       | strip_newlines
-                                       }}
-        </p>
-{% endif %}
-      </div>
-      <div class="column large-6">
-        <ul id="results-container" class="menu vertical text-right"></ul>
-      </div>
-    </header>
-  </div>
+<div class="layout--page row">
+  <main role="main" class="">
+    <div id="parallax">
+      {% include parallax_image.html %}
+      <header class="column small-centered small-10">
+        <div class="row">
+          <div class="column large-8">
+            <h1>{{ page.title | markdownify
+                              | strip_html
+                              | strip_newlines
+                              }}
+            </h1>
+    {% if page.description %}
+            <p class="lead">{{ page.description
+                                           | markdownify
+                                           | strip_html
+                                           | strip_newlines
+                                           }}
+            </p>
+    {% endif %}
+          </div>
+          <div class="column large-4">
+            <ul id="results-container" class="menu vertical text-right"></ul>
+          </div>
+      </header>
+    </div>
 
-  <main class="content small-12 column" role="main">
-    {{ content }}
+    <article class="content column medium-10 medium-centered">
+      <hr/>
+      {{ content }}
+      <hr/>
+    </article>
+
   </main>
-
-</article>
+</div>
