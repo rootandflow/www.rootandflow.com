@@ -1,15 +1,15 @@
+<div class="include--video">
+  <div class="include--video--content">
 
-<div class="flex-video">
-  <iframe
-    width="{{ include.width }}"
-    height="{{ include.height }}"
-    src="{{ include.src }}"
-  {% if include.frameborder %}
-    frameborder="{{ include.frameborder }}"
-  {% else %}
-    frameborder="0"
-  {% endif %}
-    allowfullscreen>
-  </iframe>
+    <div class="flex-video{% if include.class %} {{ include.class }}{% endif %}">
+      <iframe
+        width="{{ include.width }}"
+        height="{{ include.height }}"
+        src="{{ include.src }}{% if include.start %}?start={{ include.start }}{% endif %}"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
 </div>
-

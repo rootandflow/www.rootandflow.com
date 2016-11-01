@@ -5,7 +5,7 @@ layout: global
   <main role="main">
     <article>
       <div id="parallax" class="parallax">
-        {% include parallax_image.html %}
+        {% include parallax-image.html %}
         <header class="parallax--content">
           <div class="banderole">
             <div class="titlelines">
@@ -41,9 +41,9 @@ layout: global
                   </time>
                 </dd>
       {% endif %}
-                <dt>RSS:</dt>
+                <dt>Blog Feed:</dt>
                 <dd>
-                {% include rss_subscribe.html %}
+                  {% include feed-link.html %}
                 </dd>
               </dl>
             </div>
@@ -57,13 +57,15 @@ layout: global
       <section class="content--post">
         <hr/>
         {{ content }}
+        <hr/>
       </section>
     </article>
 
   </main>
 
   <aside class="sidebar--post">
+    <hr class="show-for-large"/>
+    {% include posts-list.html %}
     <hr/>
-    {% include posts_list.html %}
   </aside>
 </div>

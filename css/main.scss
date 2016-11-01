@@ -59,6 +59,7 @@ a {
 
 @import 'syntax-highlighting';
 @import 'device-mockups';
+@import 'plyr';
 
 /**
  * Custom add on styles
@@ -202,6 +203,17 @@ figcaption {
 
 .include--footer {
   @include grid-row();
+}
+
+.include--video {
+  @include grid-row();
+}
+.include--video--content {
+  @include grid-column(12);
+  @include breakpoint(large) {
+    @include grid-column(10);
+    @include grid-column-position(center);
+  }
 }
 
 /* Device Mockups */
