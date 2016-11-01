@@ -1,7 +1,7 @@
 <div class="include--video">
   <div class="include--video--content">
 
-    <div class="flex-video">
+    <div class="flex-video{% if include.class %} {{ include.class }}{% endif %}">
       <iframe
         width="{{ include.width }}"
         height="{{ include.height }}"
