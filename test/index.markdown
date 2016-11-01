@@ -1,6 +1,5 @@
 ---
 title: Test
-top_nav: dev
 ---
 <h2>Site Collections:</h2>
 {% for collection in site.collections %}
