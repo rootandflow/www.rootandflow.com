@@ -1,9 +1,9 @@
 ---
-layout: global
+layout: page
 title: Not Found
 permalink: /404.html
 ---
 
 Nothing to see here. Go back to the [homepage]({{ '/' | prepend: site.baseurl }})?
 
-{% include posts_list.html %}
+{% include posts-list.html %}

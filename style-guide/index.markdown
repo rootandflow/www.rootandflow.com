@@ -3,8 +3,6 @@ description: All website style elements and code examples.
 title: Style Guide
 top_nav: dev
 ---
-_{{ page.description }}_
-
 {% include toc.markdown %}
 
 {% for element in site.elements %}

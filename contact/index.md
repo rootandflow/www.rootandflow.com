@@ -1,6 +1,7 @@
 ---
 title: Contact
 subtitle: "Schedule a Web Strategy Consultation"
+top_nav: yes
 ---
 
-{% include contact_form.html %}
+{% include contact-form.html %}

@@ -3,9 +3,9 @@ layout: global
 ---
 <div class="layout--page">
   <main role="main">
-    </article>
+    <article>
       <div id="parallax" class="parallax">
-        {% include parallax_image.html %}
+        {% include parallax-image.html %}
         <header class="parallax--content">
           <div class="banderole">
             <div class="titlelines">
@@ -26,17 +26,18 @@ layout: global
             <div class="search-results">
               <ul id="results-container" class="menu vertical text-right"></ul>
             </div>
+          </div>
         </header>
       </div>
 
       <section class="content--page">
         <hr/>
         {{ content }}
+        <hr/>
       </section>
     </article>
 
   </main>
 
-    <hr/>
 
 </div>
