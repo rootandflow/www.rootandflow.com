@@ -2,7 +2,7 @@
 author: Remy Schrader
 title: "Copyright: Who really owns your work?"
 subtitle: "A Brief Primer on Exclusive and Non-exclusive License Rights"
-date: 2016-06-25 07:30:00 -0700
+date: 2016-06-26 07:30:00 -0700
 categories: strategy legal
 scroll: sunlit-river
 ---
@@ -49,7 +49,7 @@ Regarding the specifics of your question, as stated in Section 106 of the Copyri
 
 in your copyright agreement. However you should be up front and make sure the client knows and understands this before signing documents.  
 
-{% include video.html width="560" height="315" src="https://www.youtube.com/embed/pfrIuTEXROs" %}
+{% include plyr-video.html src="pfrIuTEXROs" %}
 
 Also ask yourself why you feel this is necessary for you, and how this serves the best interests of your clients. There are other avenues you can pursue that will lead to repeat business for yourself and a better end result for your clients.  
 
