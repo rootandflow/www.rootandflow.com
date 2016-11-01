@@ -2,7 +2,7 @@
 author: Remy Schrader
 title: "Copyright: Who really owns your work?"
 subtitle: "A Brief Primer on Exclusive and Non-exclusive License Rights"
-date: 2016-06-25 07:30:00 -0700
+date: 2016-06-26 07:30:00 -0700
 categories: strategy legal
 scroll: sunlit-river
 ---
